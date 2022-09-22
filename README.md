@@ -1,13 +1,19 @@
 ## Command
+composer update
+composer install
 ##ส่วนนี้ต้องไปกำหนด attribute 
+//-- php artisan make:model User --\\ Userตรงนี้มีอยู่แล้ว
 php artisan make:model Product
-php artisan make:model User
+php artisan make:model Category
 php artisan make:model Cart
+php artisan make:model Invoice
 
 ##ส่วนนี้ต้องไปกำหนด constrain
-php artisan make:migration create_User_table
+//-- php artisan make:migration create_User_table --\\ Userตรงนี้มีอยู่แล้ว
 php artisan make:migration create_Product_table
+php artisan make:migration create_Category_table
 php artisan make:migration create_Cart_table
+php artisan make:migration create_Invoice_table
 
 #หลังจากนั้น
 php artisan migrate
