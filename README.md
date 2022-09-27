@@ -6,14 +6,14 @@ composer install
 php artisan make:model Product
 php artisan make:model Category
 php artisan make:model Cart
-php artisan make:model Invoice
+php artisan make:model Payment
 
 ##ส่วนนี้ต้องไปกำหนด constrain
 //-- php artisan make:migration create_User_table --\\ Userตรงนี้มีอยู่แล้ว
 php artisan make:migration create_Product_table
 php artisan make:migration create_Category_table
 php artisan make:migration create_Cart_table
-php artisan make:migration create_Invoice_table
+php artisan make:migration create_Payment_table
 
 #หลังจากนั้น
 php artisan migrate
