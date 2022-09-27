@@ -26,3 +26,6 @@ php artisan make:controller RegisterController
 php artisan make:controller ProductController
 !---php artisan make:controller CartController---! ยังไม่จำเป็น
 
+
+
+php artisan db:seed CategorySeeder
