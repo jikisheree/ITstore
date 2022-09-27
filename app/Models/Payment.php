@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Invoice extends Model
+class Payment extends Model
 {
     use HasFactory;
-    protected $fillable= ['UID','InvoiceID', 'amount'];
+    protected $fillable= ['UID','PID', 'amount','PaymentDate'];
 }
