@@ -24,5 +24,5 @@ php artisan make:controller LoginController
 php artisan make:controller LogoutController
 php artisan make:controller RegisterController
 php artisan make:controller ProductController
-!---php artisan make:controller CartController---! อาจจะมีไม่จำเป็น
+!---php artisan make:controller CartController---! ยังไม่จำเป็น
 
