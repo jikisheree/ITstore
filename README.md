@@ -29,3 +29,4 @@ php artisan make:controller ProductController
 
 
 php artisan db:seed CategorySeeder
+php artisan db:seed ProductSeeder
