@@ -14,9 +14,9 @@
                 $i++;
                 @endphp
                 <div class="card mx-3 mb-3" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ $category->categoryName }}</h5>
+                    <img class="card-img-top my-3" style="height: 200px;" src="{{ $category->image }}" alt="Card image cap">
+                    <div class="card-body mx-auto">
+                        <h5 class="card-title text-center">{{ $category->categoryName }}</h5>
                         <a href="/index/p/{{ $i }}" class="btn btn-primary">See Product</a>
                     </div>
                 </div>
