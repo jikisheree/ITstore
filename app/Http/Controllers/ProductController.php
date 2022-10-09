@@ -5,14 +5,22 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Cart;
+use App\Models\Category;
 use Illuminate\Support\Facades\DB;
+use Nette\Utils\Strings;
 
 class ProductController extends Controller
 {
-    public function index()
+    public function index($id)
     {
-        $products = Product::all();
+        $products = Product::where('categoryID' , $id )->get();
         return view('home.index', compact('products'));
+    }
+
+    public function category()
+    {
+        $categorys = Category::all();
+        return view('home.category', compact('categorys'));
     }
 
     public function cart()

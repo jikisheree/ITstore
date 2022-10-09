@@ -21,7 +21,8 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
     /**
      * Home Routes
      */
-    Route::get('/', 'ProductController@index')->name('home.index');
+    Route::get('/', 'ProductController@category')->name('home.category');
+    Route::get('/index/p/{id}', 'ProductController@index')->name('home.index{id}');
     Route::group(['middleware' => ['guest']], function () {
         /**
          * Register Routes
