@@ -17,27 +17,33 @@ class CategorySeeder extends Seeder
         $_category = [
             [
                
-                'categoryName' => 'Monitor'
+                'categoryName' => 'Monitor',
+                'image' => '\assets\image\C_monitor.jpg'
             ],
             [
                
-                'categoryName' => 'Mouse'
+                'categoryName' => 'Mouse',
+                'image' => '\assets\image\C_mouse.jpg'
             ],
             [
                 
-                'categoryName' => 'Keyboard'
+                'categoryName' => 'Keyboard',
+                'image' => '\assets\image\C_keyboard.jpg'
             ],
             [
                
-                'categoryName' => 'Headset'
+                'categoryName' => 'Headset',
+                'image' => '\assets\image\C_headset.png'
             ],
             [
                
-                'categoryName' => 'Microphone'
+                'categoryName' => 'Microphone',
+                'image' => '\assets\image\C_microphone.jpg'
             ],
             [
                
-                'categoryName' => 'Speaker'
+                'categoryName' => 'Speaker',
+                'image' => '\assets\image\C_speaker.jpeg'
             ],
             ];
             foreach ($_category as $key => $value) {
