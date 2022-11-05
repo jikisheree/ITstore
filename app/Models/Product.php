@@ -10,6 +10,6 @@ class Product extends Model
     use HasFactory;
     public $table = "products";
     public $timestamps = false;
-    protected $fillable= ['categoryID','Pname','description', 'productCode', 'image','MSRP' ,'price', 'discount'];
+    protected $fillable= ['categoryID','Pname','description', 'productCode', 'image','MSRP' ,'price','stock'];
 }
 //ok
