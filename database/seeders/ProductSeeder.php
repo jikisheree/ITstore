@@ -14,8 +14,11 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        //
-        $products = [[
+    
+        $products = [
+        
+        //Product category : Monitor
+        [
             'categoryID'=> 1,
             'Pname' => 'VIEWSONIC MONITOR VA2432-H (IPS 75 Hz)',
             'description' => '•	Size: 24.0 • Panel type: IPS • Max resolution: 1920 x 1080
@@ -105,6 +108,8 @@ class ProductSeeder extends Seeder
             'stock' => 999,
             'price' => 24990
         ],
+
+        //Product category : Mouse
         [
             'categoryID'=> 2,
             'Pname' => 'MOUSE DELL OPTICAL MS116 (BLACK)',
@@ -189,6 +194,8 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor\mouse(10).jpg',
             'stock' => 3590
         ],
+
+        //Product category : Keyboard
         [
             'categoryID'=> 3,
             'Pname' => 'HP USB GAMING KEYBOARD K110 BLACK',
@@ -388,6 +395,7 @@ class ProductSeeder extends Seeder
             'price' => 4500,
             'MSRP' => 6790
         ],
+
         //Product category : mic
         [
             'categoryID'=> 5,
@@ -470,6 +478,8 @@ class ProductSeeder extends Seeder
             'price' => 4000,
             'MSRP' => 4500
         ],
+
+        //Product category : Speaker
         [
             'categoryID'=> 6,
             'Pname' => 'speaker',
