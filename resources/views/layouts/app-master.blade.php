@@ -29,6 +29,15 @@
             flex: 1 0 auto;
             display: flex;
         }
+
+        .page-home {
+            --page-home-padding: 4rem;
+            padding-bottom: var(--page-home-padding);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            background-color: #f8f8f8;
+        }
     </style>
     <!-- Custom styles for this template -->
     <link href="{!! url('assets/css/app.css') !!}" rel="stylesheet">
