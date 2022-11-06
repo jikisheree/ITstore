@@ -8,7 +8,6 @@ use App\Models\Cart;
 use App\Models\Category;
 use Illuminate\Support\Facades\DB;
 use Nette\Utils\Strings;
-use Illuminate\Support\Facades\Auth;
 
 class ProductController extends Controller
 {
@@ -32,25 +31,20 @@ class ProductController extends Controller
 
     public function addToCart($id)
     {
-        
         $product = Product::findOrFail($id);
-        $cart = Cart::where('productCode', '=', $product->productCode)->first();
+        $cart = Cart::where('name', '=', $product->name)->first();
         DB::transaction(function () use ($product, $cart) {
             if ($cart != null) {
-                $cart->quantityOrdered = $cart->quantityOrdered + 1;
+                $cart->quantity = $cart->quantity + 1;
                 $cart->save();
             } else {
                 $cart = new Cart();
-                $user = Auth::user();
-                $cart->productCode = $product->productCode;
-                $cart->Pname=$product->Pname;
-                $cart->quantityOrdered = 1;
-                $cart->priceEach = $product->price;
+                $cart->name = $product->name;
+                $cart->quantity = 1;
+                $cart->price = $product->price;
                 $cart->image = $product->image;
-                $cart->userNumber = $user->userNumber;
                 $cart->save();
             }
-            
             $product->stock = $product->stock - 1;
             $product->save();
         });
@@ -60,9 +54,9 @@ class ProductController extends Controller
     public function remove($id)
     {
         $cart = Cart::findOrFail($id);
-        $product = Product::where('Pname', '=', $cart->Pname)->first();
+        $product = Product::where('name', '=', $cart->name)->first();
         DB::transaction(function () use ($product, $cart) {
-            $product->stock = $product->stock + $cart->quantityOrdered;
+            $product->stock = $product->stock + $cart->quantity;
             $product->save();
             $cart->delete();
         });
