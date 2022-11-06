@@ -102,13 +102,13 @@ CREATE TABLE `offices` (
 
 
 --
--- Table structure for table `orderdetails`
+-- Table structure for table `carts`
 --
 
-DROP TABLE IF EXISTS `orderdetails`;
+DROP TABLE IF EXISTS `carts`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `orderdetails` (
+CREATE TABLE `carts` (
   `orderNumber` int(11) NOT NULL,
   `productCode` int  NOT NULL,
   `quantityOrdered` int(11) NOT NULL,
@@ -116,13 +116,13 @@ CREATE TABLE `orderdetails` (
   `orderLineNumber` smallint(6) NOT NULL,
   PRIMARY KEY (`orderNumber`,`productCode`),
   KEY `productCode` (`productCode`),
-  CONSTRAINT `orderdetails_ibfk_1` FOREIGN KEY (`orderNumber`) REFERENCES `orders` (`orderNumber`),
-  CONSTRAINT `orderdetails_ibfk_2` FOREIGN KEY (`productCode`) REFERENCES `products` (`productCode`)
+  CONSTRAINT `carts_ibfk_1` FOREIGN KEY (`orderNumber`) REFERENCES `orders` (`orderNumber`),
+  CONSTRAINT `carts_ibfk_2` FOREIGN KEY (`productCode`) REFERENCES `products` (`productCode`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `orderdetails`
+-- Dumping data for table `carts`
 --
 
 
