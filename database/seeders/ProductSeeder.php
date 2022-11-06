@@ -22,8 +22,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 4 ms',
             'image' => '\assets\image\monitor\(1).jpg',
             'stock' => 999,
-            'price' => 2800,
-            'MSRP' => 3990
+            'price' => 3990
         ],
         [
             'categoryID'=> 1,
@@ -32,8 +31,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: Display Port/HDMI • Respond time: 5 ms',
             'image' => '\assets\image\monitor\(2).jpg',
             'stock' => 999,
-            'price' => 3000,
-            'MSRP' => 4390
+            'price' => 4390
         ],
         [
             'categoryID'=> 1,
@@ -42,8 +40,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 5 ms',
             'image' => '\assets\image\monitor\(3).jpg',
             'stock' => 999,
-            'price' => 3000,
-            'MSRP' => 4400
+            'price' => 4400
         ],
         [
             'categoryID'=> 1,
@@ -52,8 +49,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 16:9 • Refresh rate: 240 Hz • Ports: Display Port/HDMI/SPK/ Audio out • Respond time: 5 ms',
             'image' => '\assets\image\monitor\(4).jpg',
             'stock' => 999,
-            'price' => 6000,
-            'MSRP' => 7990
+            'price' => 7990
         ],
         [
             'categoryID'=> 1,
@@ -62,8 +58,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 16:9 • Refresh rate: 60 Hz • Ports: USB-C/PC Audio input • Respond time: 5 ms',
             'image' => '\assets\image\monitor\(5).jpg',
             'stock' => 999,
-            'price' => 7000,
-            'MSRP' => 8990
+            'price' => 8990
         ],
         [
             'categoryID'=> 1,
@@ -72,8 +67,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 21:9 • Refresh rate: 75 Hz • Ports: Display Port/HDMI/USB-C/ Headphone out • Respond time: 1 ms',
             'image' => '\assets\image\monitor\(6).jpg',
             'stock' => 999,
-            'price' => 8500,
-            'MSRP' => 11500
+            'price' => 11500
         ],
         [
             'categoryID'=> 1,
@@ -82,8 +76,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 16:9 • Refresh rate: 165 Hz • Ports: Display Port/HDMI • Respond time: 1 ms',
             'image' => '\assets\image\monitor\(7).jpg',
             'stock' => 999,
-            'price' => 8000,
-            'MSRP' => 10900
+            'price' => 10900
         ],
         [
             'categoryID'=> 1,
@@ -92,8 +85,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 21:9 • Refresh rate: 144 Hz • Ports: Display Port/HDMI • Respond time: 4 ms',
             'image' => '\assets\image\monitor\(8).jpg',
             'stock' => 999,
-            'price' => 10000,
-            'MSRP' => 12900
+            'price' => 12900
         ],
         [
             'categoryID'=> 1,
@@ -102,8 +94,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 21:9 • Refresh rate: 144 Hz • Ports: VGA/HDMI • Respond time: 1 ms',
             'image' => '\assets\image\monitor\(9).jpg',
             'stock' => 999,
-            'price' => 15000,
-            'MSRP' => 19900
+            'price' => 19900
         ],
         [
             'categoryID'=> 1,
@@ -112,8 +103,7 @@ class ProductSeeder extends Seeder
             • Widescreen: 32:9 • Refresh rate: 120 Hz • Ports: Display Port/HDMI • Respond time: 4 ms',
             'image' => '\assets\image\monitor\(10).jpg',
             'stock' => 999,
-            'price' => 20000,
-            'MSRP' => 24990
+            'price' => 24990
         ],
         [
             'categoryID'=> 4,
