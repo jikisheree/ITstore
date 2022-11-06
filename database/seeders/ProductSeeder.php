@@ -489,13 +489,98 @@ class ProductSeeder extends Seeder
         //Product category : Speaker
         [
             'categoryID'=> 6,
-            'Pname' => 'speaker',
-            'description' => 'speaker',
-            'image' => '\assets\image\C_speaker.jpg',
+            'Pname' => 'SPEAKER FANTECH SONAR GS202 MOBILE GAMING & MUSIC SPEAKER (BLACK)',
+            'description' => '• Portable USB2.0 Speaker • 45MM Driver Unit • RGB Illumination
+            ',
+            'image' => '\assets\image\speaker\speaker1.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ]];
+            'price' => 150,
+            'MSRP' => 290
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'SPEAKER FANTECH SONAR GS202 MOBILE GAMING & MUSIC SPEAKER (SAKURA EDITION) (PINK)',
+            'description' => '• Portable USB 2.0 + 3.5mm TRRS jack Speaker • 45MM Driver Unit •	RGB Illumination • Dimension : 80 x 80 x 100mm
+            ',
+            'image' => '\assets\image\speaker\speaker2.jpg',
+            'stock' => 999,
+            'price' => 150,
+            'MSRP' => 320
+        ],
+        [
+            'categoryID'=> 6,
+            'Pname' => 'SPEAKER EDIFIER M101BT PREFERT FOR YOUR HOME THEATER SYDTEM (BLACK)',
+            'description' => '• 2.1 Bluetooth multimedia speakers system • Supports AUX audio inputs for different types of media devices • 100% wooden subwoofer with 4" bass driver • Side-mounted volume adjustment for easy controls3.SPEAKER EDIFIER R12U 2.0 (WHITE)
+            ',
+            'image' => '\assets\image\speaker\speaker3.jpg',
+            'stock' => 999,
+            'price' => 700,
+            'MSRP' => 1090
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER SOUL S-STORM (BEIGE)',
+            'description' => '•	Bluetooth 5.0 • Up to 20 Hours Play Time • Weatherproof & Floatable (IP68 Rating) •	For Music & Calls •	USB-C Quick Charge • Portable & Convenient
+            ',
+            'image' => '\assets\image\speaker\speaker4.jpg',
+            'stock' => 999,
+            'price' => 1000,
+            'MSRP' => 1590
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'SPEAKER EDIFIER G2000 BLUETOOTH 2.0 GAMING SPEAKERS WITH RGB LIGHTING (WHITE)',
+            'description' => '•	2.75 inch full-range unit with 16W RMS power output • Column-shaped cabinet with backward mega bass port • 12 light effects enhance gaming experience •	Mechanical shift lever easy to control volume •	Music, Game and Movie sound mode supported • Bluetooth/USB sound card/AUX input available •	Dedicated power adapter for stable and safety power supply • Subwoofer output interface included
+            ',
+            'image' => '\assets\image\speaker\speaker5.jpg',
+            'stock' => 999,
+            'price' => 1800,
+            'MSRP' => 2790
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER ANKER SOUNDCORE MOTION+ (BLACK) (A3116H11-AK184/SC24)',
+            'description' => "•	Hi-res Audio: motion+ is equipped with stunning Hi-Res Audio which is further enhanced by Qualcomm aptX for lossless music reproduction when streaming via Bluetooth. •	Huge sound with intense bass: packed with two Ultra high-frequency tweeters, neodymium woofers, and passive radiators to fill every corner of your room with 30W of rich sound. Low frequencies are enhanced in real-time by our exclusive bassuptm technology. • Exceptional depth and clarity: motion+'s Ultra-wide frequency range stretches from 50 Hz to 40 kHz and is paired with an advanced DSP to ensure all the details and idiosyncrasies of a song are faithfully reproduced. •	IPX7 waterproof: fully-waterproof casing provides an impenetrable barrier against liquids. • 12-Hour playtime: motion+'s built-in 6, 700 mAh battery lets you effortlessly soundtrack wild weekends, cozy evenings, or long summer days outdoors.
+            ",
+            'image' => '\assets\image\speaker\speaker6.jpg',
+            'stock' => 999,
+            'price' => 2000,
+            'MSRP' => 4490
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER SONOS ROAM (LUNAR WHITE)',
+            'description' => '•	Waterproof (IP67) •	Apple AirPlay 2 • Drop resistant • Button controls • 10 hour battery life •	WiFi • Automatic Trueplay™ • Bluetooth® • Voice enabled
+            ',
+            'image' => '\assets\image\speaker\speaker7.jpg',
+            'stock' => 999,
+            'price' => 5000,
+            'MSRP' => 9990
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER SONOS ONE GEN 2 (BLACK)',
+            'description' => '•	Voice enabled •	Touch controls • Humidity resistant • WiFi • Apple AirPlay 2
+            ',
+            'image' => '\assets\image\speaker\speaker8.jpg',
+            'stock' => 999,
+            'price' => 5000,
+            'MSRP' => 10900
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER JBL PARTYBOX 110 ',
+            'description' => '•	Bluetooth 5.1 & 3.5mm Jack • Mic & Guitar inputs • 160W RMS • Dynamic light show
+            ',
+            'image' => '\assets\image\speaker\speaker9.jpg',
+            'stock' => 999,
+            'price' => 10000,
+            'MSRP' => 17900
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER JBL PARTYBOX 710',
+            'description' => '•	Bluetooth 5,1 •	800W RMS party speaker • Customizable lightshow • IPX4 splashproof
+            ',
+            'image' => '\assets\image\speaker\speaker10.jpg',
+            'stock' => 999,
+            'price' => 20000,
+            'MSRP' => 32900
+        ]
+
+    ];
         foreach ($products as $key => $value) {
             Product::create($value);
         }
