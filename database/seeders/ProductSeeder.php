@@ -18,68 +18,6 @@ class ProductSeeder extends Seeder
         $products = [
         
         //Product category : Monitor
-        [
-            'categoryID'=> 1,
-            'Pname' => 'VIEWSONIC MONITOR VA2432-H (IPS 75 Hz)',
-            'description' => '•	Size: 24.0 • Panel type: IPS • Max resolution: 1920 x 1080
-            • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 4 ms',
-            'image' => '\assets\image\monitor\(1).jpg',
-            'stock' => 999,
-            'price' => 3990
-        ],
-        [
-            'categoryID'=> 4,
-            'Pname' => 'headset',
-            'description' => 'headset',
-            'image' => '\assets\image\C_headset.png',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],
-        [
-            'categoryID'=> 3,
-            'Pname' => 'keyboard',
-            'description' => 'keyboard',
-            'image' => '\assets\image\C_keyboard.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],
-        [
-            'categoryID'=> 5,
-            'Pname' => 'microphone',
-            'description' => 'microphone',
-            'image' => '\assets\image\C_microphone.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],
-        [
-            'categoryID'=> 1,
-            'Pname' => 'monitor',
-            'description' => 'monitor',
-            'image' => '\assets\image\C_monitor.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],
-        [
-            'categoryID'=> 2,
-            'Pname' => 'mouse',
-            'description' => 'mouse',
-            'image' => '\assets\image\C_mouse.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],[
-            'categoryID'=> 6,
-            'Pname' => 'speaker',
-            'description' => 'speaker',
-            'image' => '\assets\image\C_speaker.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],
         //Product category : Headset
         [
             'categoryID'=> 4,
