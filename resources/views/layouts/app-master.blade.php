@@ -25,6 +25,10 @@
             }
         }
 
+        .page-container {
+            flex: 1 0 auto;
+            display: flex;
+        }
     </style>
     <!-- Custom styles for this template -->
     <link href="{!! url('assets/css/app.css') !!}" rel="stylesheet">
@@ -37,7 +41,7 @@
 
 <body>
     @include('layouts.partials.navbar')
-    <main class="container">
+    <main class="page-container">
         @yield('content')
     </main>
     <script src="{!! url('assets/bootstrap/js/bootstrap.bundle.min.js') !!}"></script>
