@@ -64,7 +64,6 @@
 </head>
 <div class="p-5 rounded" style="background-color:#eaeaf4 ">
     @auth
-    
     <h1>Products</h1>
     <p class="lead">Choose the product that you want to buy.</p>
     <div class="flex-center position-ref full-height">
@@ -75,7 +74,7 @@
                     <div class="clearfix" style="padding: 20px; margin: 25px; border-radius: 8px; border-bottom: 6px solid red; background-color: white; height: max-height; width: 300px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                         <img src="{{ $product->image }}" style="width: 250px;">
                         <div class="caption">
-                            <h4>{{ $product->Pname }}</h4>
+                            <h4>{{ $product->name }}</h4>
                             <p class="overflow-md-auto">{{ $product->description }}</p>
                             <p style="color: Gray; font-size: 18px;"><strong>Amount : </strong>{{ $product->stock }}</p>
                             <p style="color: Tomato; font-size: 18px;"><strong>Price : </strong> {{ $product->price }} $</p>

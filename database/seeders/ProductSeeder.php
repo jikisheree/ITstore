@@ -14,69 +14,279 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        //
-        $products = [[
+    
+        $products = [
+        
+        //Product category : Monitor
+        [
             'categoryID'=> 1,
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'image' => '\assets\image\monitor1.jpg',
+            'Pname' => 'VIEWSONIC MONITOR VA2432-H (IPS 75 Hz)',
+            'description' => '•	Size: 24.0 • Panel type: IPS • Max resolution: 1920 x 1080
+            • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 4 ms',
+            'image' => '\assets\image\monitor\(1).jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],
-        [
-            'categoryID'=> 4,
-            'Pname' => 'headset',
-            'description' => 'headset',
-            'image' => '\assets\image\C_headset.png',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],
-        [
-            'categoryID'=> 3,
-            'Pname' => 'keyboard',
-            'description' => 'keyboard',
-            'image' => '\assets\image\C_keyboard.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],
-        [
-            'categoryID'=> 5,
-            'Pname' => 'microphone',
-            'description' => 'microphone',
-            'image' => '\assets\image\C_microphone.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 3990
         ],
         [
             'categoryID'=> 1,
-            'Pname' => 'monitor',
-            'description' => 'monitor',
-            'image' => '\assets\image\C_monitor.jpg',
+            'Pname' => 'MSI MONITOR MP243W (24 IPS 75 Hz White)',
+            'description' => '•	Size: 23.8 • Panel type: IPS • Max resolution: 1920 x 1080
+            • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: Display Port/HDMI • Respond time: 5 ms',
+            'image' => '\assets\image\monitor\(2).jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 4390
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'SAMSUNG MONITOR LF24T350FHEXXT (IPS 75 Hz)',
+            'description' => '•	Size: 24.0 • Panel type: IPS • Max resolution: 1920 x 1080
+            • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 5 ms',
+            'image' => '\assets\image\monitor\(3).jpg',
+            'stock' => 999,
+            'price' => 4400
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'ACER MONITOR Nitro Gaming VG252QXbmiipx (IPS 240Hz G-SYNC)',
+            'description' => '•	Size: 24.5 • Panel type: IPS • Max resolution: 1920 x 1080
+            • Widescreen: 16:9 • Refresh rate: 240 Hz • Ports: Display Port/HDMI/SPK/ Audio out • Respond time: 5 ms',
+            'image' => '\assets\image\monitor\(4).jpg',
+            'stock' => 999,
+            'price' => 7990
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'ASUS MONITOR ZenScreen MB16ACE 15.6 (IPS 60 Hz)',
+            'description' => '•	Size: 15.6 • Panel type: IPS • Max resolution: 1920 x 1080
+            • Widescreen: 16:9 • Refresh rate: 60 Hz • Ports: USB-C/PC Audio input • Respond time: 5 ms',
+            'image' => '\assets\image\monitor\(5).jpg',
+            'stock' => 999,
+            'price' => 8990
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'LG MONITOR 34WP65G-B (IPS 75Hz HDR USB-C UltraWide)',
+            'description' => '•	Size: 34.0 • Panel type: IPS • Max resolution: 2560 x 1080
+            • Widescreen: 21:9 • Refresh rate: 75 Hz • Ports: Display Port/HDMI/USB-C/ Headphone out • Respond time: 1 ms',
+            'image' => '\assets\image\monitor\(6).jpg',
+            'stock' => 999,
+            'price' => 11500
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'MSI MONITOR OPTIX G32CQ4 (VA 2K 165Hz CURVED) ',
+            'description' => '•	Size: 31.5 • Panel type: VA Curved • Max resolution: 2560 x 1440
+            • Widescreen: 16:9 • Refresh rate: 165 Hz • Ports: Display Port/HDMI • Respond time: 1 ms',
+            'image' => '\assets\image\monitor\(7).jpg',
+            'stock' => 999,
+            'price' => 10900
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'XIAOMI Mi Curved Gaming Monitor (WQHD 144Hz)',
+            'description' => '•	Size: 34.0 • Panel type: Curved • Max resolution: 3440 x 1440
+            • Widescreen: 21:9 • Refresh rate: 144 Hz • Ports: Display Port/HDMI • Respond time: 4 ms',
+            'image' => '\assets\image\monitor\(8).jpg',
+            'stock' => 999,
+            'price' => 12900
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'SKYWORTH MONITOR Ultrawide F34G3Q (IPS 144Hz HDR)',
+            'description' => '•	Size: 34.0 • Panel type: IPS • Max resolution: 3440 x 1440
+            • Widescreen: 21:9 • Refresh rate: 144 Hz • Ports: VGA/HDMI • Respond time: 1 ms',
+            'image' => '\assets\image\monitor\(9).jpg',
+            'stock' => 999,
+            'price' => 19900
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'ACER MONITOR NITRO GAMING EI491CRPBMIIIPX (VA 144Hz)',
+            'description' => '•	Size: 49.0 • Panel type: VA curved • Max resolution: 3840 x 1440
+            • Widescreen: 32:9 • Refresh rate: 120 Hz • Ports: Display Port/HDMI • Respond time: 4 ms',
+            'image' => '\assets\image\monitor\(10).jpg',
+            'stock' => 999,
+            'price' => 24990
+        ],
+
+        //Product category : Mouse
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE DELL OPTICAL MS116 (BLACK)',
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 1000 dpi • Buttons: 3 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(1).jpg',
+            'stock' => 999,
+            'price' => 130
         ],
         [
             'categoryID'=> 2,
-            'Pname' => 'mouse',
-            'description' => 'mouse',
-            'image' => '\assets\image\C_mouse.jpg',
+            'Pname' => 'MOUSE NUBWO X7S RGB (WHITE)',
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 1000 dpi • Buttons: 3 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(2).jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],[
-            'categoryID'=> 6,
-            'Pname' => 'speaker',
-            'description' => 'speaker',
-            'image' => '\assets\image\C_speaker.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 389
         ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE RAPOO EV200 (BLACK)',
+            'description' => '•	Interface: USB Cable (1.5 m) • Resolution: 1600 dpi • Buttons: 3 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(3).jpg',
+            'stock' => 999,
+            'price' => 389
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'WIRELESS MOUSE LOGITECH M331 WIRELESS SILENT PLUS (BLACK)',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Resolution: 1000 dpi • Buttons: 3 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(4).jpg',
+            'stock' => 999,
+            'price' => 590
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE MSI CLUTCH GM11 (BLACK-RGB)',
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 5000 dpi • Buttons: 6 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(5).jpg',
+            'stock' => 850
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE ASUS ROG GLADIUS II RGB',
+            'description' => '•	Interface: USB Cable (2.0 m) • Resolution: 12000 dpi • Buttons: 7 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(6).jpg',
+            'stock' => 1590
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'WIRELESS MOUSE MICROSOFT WIRELESS SCULPT ERGONOMIC MOUSE (MCS-L6V-00006)',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Resolution: 10000 dpi • Buttons: 7 buttons
+            • Sensing: BlueTrack',
+            'image' => '\assets\image\monitor\mouse(7).jpg',
+            'stock' => 1790
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'WIRELESS MOUSE CORSAIR HARPOON RGB (CH-9311011-AP)',
+            'description' => '•	Interface: USB cable (1.8 m)/Wireless 2.4 GHz and Bluetooth 5.0 • Resolution: 10000 dpi • Buttons: 6 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(8).jpg',
+            'stock' => 1990
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MICROSOFT BLUETOOTH ARC TOUCH MOUSE (LILAC-RGB)(MCS-ELG-00022)',
+            'description' => '•	Interface: USB Wireless 2.4 GHz and Bluetooth 5.0 •	Resolution: 1000 dpi • Buttons: 6 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(9).jpg',
+            'stock' => 2690
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'GLORIOUS MOUSE MODEL O WIRELESS (MATTE WHITE-RGB)',
+            'description' => '•	Interface: USB cable (2 m) • Resolution: 19000 dpi • Buttons: 6 buttons
+            • Sensing: Glorious BAMF Sensor',
+            'image' => '\assets\image\monitor\mouse(10).jpg',
+            'stock' => 3590
+        ],
+
+        //Product category : Keyboard
+        [
+            'categoryID'=> 3,
+            'Pname' => 'HP USB GAMING KEYBOARD K110 BLACK',
+            'description' => '•	Interface: USB Cable (1.8 m) • Keys: 104 keys • Backlighting: RGB
+            • Numpad: yes',
+            'image' => '\assets\image\keyboard\kb(1).jpg',
+            'stock' => 999,
+            'price' => 390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'NUBWO USB KEYBOARD GAMING (NK-18 SAVAGE) WHITE',
+            'description' => '•	Interface: USB Cable (1.7 m) • Keys: 104 keys • Backlighting: RGB
+            • Numpad: yes',
+            'image' => '\assets\image\keyboard\kb(2).jpg',
+            'stock' => 999,
+            'price' => 429
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'LONGITECH WIRELESS KEYBOARD K375S BLACK',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Keys: 101 keys • Backlighting: no
+            • Numpad: yes •	Notice: Waterproof',
+            'image' => '\assets\image\keyboard\kb(3).jpg',
+            'stock' => 999,
+            'price' => 710
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'OKER BLUETOOTH MULTI-DEVICE KEYBOARD (K-510) BLACK/WHITE ',
+            'description' => '•	Interface: Bluetooth • Keys: 80 keys • Backlighting: RGB
+            • Numpad: no • Notice: Multi-device connectable(3 devices)',
+            'image' => '\assets\image\keyboard\kb(4).jpg',
+            'stock' => 999,
+            'price' => 890
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'MOFII BLUETOOTH KEYBOARD (COTTON CANDY) A0144442',
+            'description' => '•	Interface: Bluetooth • Keys: 84 keys • Backlighting: no
+            • Numpad: no',
+            'image' => '\assets\image\keyboard\kb(5).jpg',
+            'stock' => 999,
+            'price' => 1290
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'MICROSOFT KEYBOARD WIRELESS (ALL-IN-ONE) BLACK N9Z-00027',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Keys: 104 keys • Backlighting: no
+            • Numpad: no • Notice: touchpad-included',
+            'image' => '\assets\image\keyboard\kb(6).jpg',
+            'stock' => 999,
+            'price' => 1390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'SteelSeries GAMING KEYBOARD Mechanical Apex 5 Black',
+            'description' => '•	Interface: USB Cable • Keys: 104 keys • Backlighting: RGB
+            • Numpad: yes •	Notice: Software SteelSeries Engine 3.15+/Anti-Ghosting/Dynamic Per Key RGB Illumination',
+            'image' => '\assets\image\keyboard\kb(7).jpg',
+            'stock' => 999,
+            'price' => 3390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'KEYCHRON GAMING KEYBOARD K4 V.2 Wireless Mechanical Black-grey',
+            'description' => '•	Interface: Bluetooth 5.1 • Keys: 100 keys • Backlighting: RGB
+            • Numpad: yes •	Notice: Multi-device connectable(3 devices)',
+            'image' => '\assets\image\keyboard\kb(8).jpg',
+            'stock' => 999,
+            'price' => 4390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'HP USB GAMING KEYBOARD K110 BLACK',
+            'description' => '•	Interface: USB Wireless 2.4 GHz and Bluetooth 5.1 • Keys: 85 keys • Backlighting: no
+            • Numpad: no •	Notice: Multi-device connectable(3 devices)',
+            'image' => '\assets\image\keyboard\kb(9).jpg',
+            'stock' => 999,
+            'price' => 4390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'HP USB GAMING KEYBOARD K110 BLACK',
+            'description' => '•	Interface: USB Type-C/Wireless 2.4GHz&Bluetooth • Keys: 104 keys • Backlighting: RGB
+            • Numpad: yes •	Notice: green/yellow switch',
+            'image' => '\assets\image\keyboard\kb(10).jpg',
+            'stock' => 999,
+            'price' => 7790
+        ],
+
         //Product category : Headset
         [
             'categoryID'=> 4,
@@ -185,6 +395,7 @@ class ProductSeeder extends Seeder
             'price' => 4500,
             'MSRP' => 6790
         ],
+
         //Product category : mic
         [
             'categoryID'=> 5,
@@ -275,7 +486,16 @@ class ProductSeeder extends Seeder
             'MSRP' => 4500
         ],
 
-        ];
+        //Product category : Speaker
+        [
+            'categoryID'=> 6,
+            'Pname' => 'speaker',
+            'description' => 'speaker',
+            'image' => '\assets\image\C_speaker.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ]];
         foreach ($products as $key => $value) {
             Product::create($value);
         }
