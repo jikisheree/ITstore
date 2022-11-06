@@ -22,7 +22,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 2800,
-            'MSRP' => 3990
+        
         ],
         [
             'categoryID'=> 1,
@@ -31,7 +31,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 3000,
-            'MSRP' => 4390
+        
         ],
         [
             'categoryID'=> 1,
@@ -40,7 +40,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 3000,
-            'MSRP' => 4400
+        
         ],
         [
             'categoryID'=> 1,
@@ -49,7 +49,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 6000,
-            'MSRP' => 7990
+        
         ],
         [
             'categoryID'=> 1,
@@ -58,7 +58,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 7000,
-            'MSRP' => 8990
+        
         ],
         [
             'categoryID'=> 1,
@@ -67,7 +67,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 8500,
-            'MSRP' => 11500
+        0
         ],
         [
             'categoryID'=> 1,
@@ -76,7 +76,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 8000,
-            'MSRP' => 10900
+        0
         ],
         [
             'categoryID'=> 1,
@@ -85,7 +85,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 10000,
-            'MSRP' => 12900
+        0
         ],
         [
             'categoryID'=> 1,
@@ -94,7 +94,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 15000,
-            'MSRP' => 19900
+        0
         ],
         [
             'categoryID'=> 1,
@@ -103,7 +103,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
             'price' => 20000,
-            'MSRP' => 24990
+        0
         ],
         [
             'categoryID'=> 4,
@@ -112,7 +112,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\C_headset.png',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],
         [
             'categoryID'=> 3,
@@ -121,7 +121,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\C_keyboard.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],
         [
             'categoryID'=> 5,
@@ -130,7 +130,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\C_microphone.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],
         [
             'categoryID'=> 1,
@@ -139,7 +139,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\C_monitor.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],
         [
             'categoryID'=> 2,
@@ -148,7 +148,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\C_mouse.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 6,
             'Pname' => 'speaker',
@@ -156,7 +156,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\C_speaker.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],
         //Product category : Headset
         [
@@ -166,8 +166,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset1.jpg',
             'stock' => 999,
             'price' => 200,
-            'MSRP' => 450
-        ],[
+                ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET ONIKUMA X15 PRO RGB (BLACK)',
             'description' => "1.The earphone adopts light material design, the double-head beam design is light and comfortable, focusing on the game wearing experience, and the head beam is cool and RGB light guide bar shines\n
@@ -178,8 +177,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset2.jpg',
             'stock' => 999,
             'price' => 400,
-            'MSRP' => 750
-        ],[
+                ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET ONIKUMA X15 PRO RGB AUX 3.5 (PINK)',
             'description' => "ONIKUMA X15 PRO GAMING HEADSET : ONIKUMA X15 PRO Gaming Headset adopts unique transparent luminous head beam design to give the most gorgeous lighting effects when playing games, which will create a real battlefield surround players. The 50mm oversized speaker units and graphene diaphragm ensure perfect performance on Treble, Mid and Bass to deliver the truest sound. Ultimate pursuit of comfort: 268g lightweight design, breathable all-inclusive earmuffs, adaptive head beam, all those sweet design will make sure your comfort in long time wearing.\n
@@ -188,16 +186,14 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset3.jpg',
             'stock' => 999,
             'price' => 500,
-            'MSRP' => 750
-        ],[
+                ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET FANTECH VALOR MH86 SPACE EDITION (WHITE)',
             'description' => "Fantech VALOR MH86 SPACE EDITION is one kind of Multi Platform Gaming Headset. It is flexible and incredibly durable. it has been tested extensively to withstand the rigors of pro-gaming. This gaming headset designed with Adjustable Steel Headband, Foldable Mircrophone, Adjustable Earcup Angle. The gaming headphone is Multi-Platform Compatibility type. Here, the microphone is featured with Microphone Frequency Response 100-10,000Hz, Microphone Pattern Omni-directional, Sensitivity -42dB, Impedance 2200 Ohm, Microphone Noise Cancellation, Foldable Microphone Design and Microphone Mute Toggle On Remote Control. This headphone desiogned with With only 280gr weight. but still flexible and incredibly durable. it has been tested extensively to withstand the rigors of pro-gaming. In this headphone, the speakers featured with Speaker Driver 50mm, Headset Frequency Response 20-20,000Hz, Headset Sensitivity 110dB, Headset Impedance 32 Ohm, Headset Total Harmonic Distortion <5%, Headset Volume Control On Remote control. This Headphone supports with PC, Playstation, Xbox, Mobile and Mac. The latest Fantech VALOR MH86 SPACE EDITION Gaming Headphone has 01 year warranty.",
             'image' => '\assets\image\headset\headset4.jpg',
             'stock' => 999,
             'price' => 500,
-            'MSRP' => 790
-        ],[
+                ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET RAZER BLACKSHARK V2 X (GREEN)',
             'description' => "RAZER™ TRIFORCE 50MM DRIVERS : Our all-new patented design allows our engineers to custom tune each driver as though there are three—allowing for the individual replications of high, mid and low audio frequencies to deliver on richer trebles, brighter sound and powerful bass.\n
@@ -206,7 +202,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset5.jpg",
             'stock' => 999,
             'price' => 1200,
-            'MSRP' => 1890
+        
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET HyperX CLOUD STINGER CORE WIRELESS',
@@ -222,7 +218,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset6.jpg',
             'stock' => 999,
             'price' => 1100,
-            'MSRP' => 2090
+        
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET RAZER KAIRA X FOR XBOX (WHITE)',
@@ -232,7 +228,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset7.jpg',
             'stock' => 999,
             'price' => 1500,
-            'MSRP' => 2490
+        
         ],[
             'categoryID'=> 4,
             'Pname' => 'BLUETOOTH HEADSET RAZER KRAKEN BT (KITTY EDITION) (QUARTZ)',
@@ -244,7 +240,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset8.jpg',
             'stock' => 999,
             'price' => 2000,
-            'MSRP' => 3590
+        
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET CORSAIR VIRTUOSO RGB WIRELESS (CARBON)',
@@ -256,7 +252,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset9.jpg',
             'stock' => 999,
             'price' => 4500,
-            'MSRP' => 6790
+        
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET CORSAIR VIRTUOSO RGB WIRELESS HIGH-FIDELITY GAMING HEADSET-PERL',
@@ -264,7 +260,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\headset\headset10.jpg',
             'stock' => 999,
             'price' => 4500,
-            'MSRP' => 6790
+        
         ],
         //Product category : mic
         [
@@ -274,15 +270,14 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic1.jpg',
             'stock' => 999,
             'price' => 120,
-            'MSRP' => 240
-        ],[
+                ],[
             'categoryID'=> 5,
             'Pname' => 'USB MICROPHONE ARROW X YDK-M1',
             'description' => 'keyboard',
             'image' => '\assets\image\microphone\mic2.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HyperX SOLOCAST',
@@ -290,7 +285,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic3.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE SARAMONIC SR-MV2000',
@@ -298,7 +293,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic4.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX QUADCAST S WHITE',
@@ -306,7 +301,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic5.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX DUOCAST USB',
@@ -314,7 +309,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic6.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 5,
             'Pname' => 'USB MICROPHONE BLUE YETI NANO (SHADOW GREY)',
@@ -322,7 +317,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic7.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 5,
             'Pname' => 'USB MICROPHONE BLUE YETI NANO (MIDNIGHT BLUE)',
@@ -330,7 +325,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic8.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX PROCAST XLR',
@@ -338,7 +333,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic9.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE SHURE MV7 (SILVER)',
@@ -346,7 +341,7 @@ class ProductSeeder extends Seeder
             'image' => '\assets\image\microphone\mic10.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+        
         ],
 
         ];
