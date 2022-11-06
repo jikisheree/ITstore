@@ -190,58 +190,96 @@ class ProductSeeder extends Seeder
             'stock' => 3590
         ],
         [
-            'categoryID'=> 4,
-            'Pname' => 'headset',
-            'description' => 'headset',
-            'image' => '\assets\image\C_headset.png',
+            'categoryID'=> 3,
+            'Pname' => 'HP USB GAMING KEYBOARD K110 BLACK',
+            'description' => '•	Interface: USB Cable (1.8 m) • Keys: 104 keys • Backlighting: RGB
+            • Numpad: yes',
+            'image' => '\assets\image\keyboard\kb(1).jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 390
         ],
         [
             'categoryID'=> 3,
-            'Pname' => 'keyboard',
-            'description' => 'keyboard',
-            'image' => '\assets\image\C_keyboard.jpg',
+            'Pname' => 'NUBWO USB KEYBOARD GAMING (NK-18 SAVAGE) WHITE',
+            'description' => '•	Interface: USB Cable (1.7 m) • Keys: 104 keys • Backlighting: RGB
+            • Numpad: yes',
+            'image' => '\assets\image\keyboard\kb(2).jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 429
         ],
         [
-            'categoryID'=> 5,
-            'Pname' => 'microphone',
-            'description' => 'microphone',
-            'image' => '\assets\image\C_microphone.jpg',
+            'categoryID'=> 3,
+            'Pname' => 'LONGITECH WIRELESS KEYBOARD K375S BLACK',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Keys: 101 keys • Backlighting: no
+            • Numpad: yes •	Notice: Waterproof',
+            'image' => '\assets\image\keyboard\kb(3).jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 710
         ],
         [
-            'categoryID'=> 1,
-            'Pname' => 'monitor',
-            'description' => 'monitor',
-            'image' => '\assets\image\C_monitor.jpg',
+            'categoryID'=> 3,
+            'Pname' => 'OKER BLUETOOTH MULTI-DEVICE KEYBOARD (K-510) BLACK/WHITE ',
+            'description' => '•	Interface: Bluetooth • Keys: 80 keys • Backlighting: RGB
+            • Numpad: no • Notice: Multi-device connectable(3 devices)',
+            'image' => '\assets\image\keyboard\kb(4).jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 890
         ],
         [
-            'categoryID'=> 2,
-            'Pname' => 'mouse',
-            'description' => 'mouse',
-            'image' => '\assets\image\C_mouse.jpg',
+            'categoryID'=> 3,
+            'Pname' => 'MOFII BLUETOOTH KEYBOARD (COTTON CANDY) A0144442',
+            'description' => '•	Interface: Bluetooth • Keys: 84 keys • Backlighting: no
+            • Numpad: no',
+            'image' => '\assets\image\keyboard\kb(5).jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
-        ],[
-            'categoryID'=> 6,
-            'Pname' => 'speaker',
-            'description' => 'speaker',
-            'image' => '\assets\image\C_speaker.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 1290
         ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'MICROSOFT KEYBOARD WIRELESS (ALL-IN-ONE) BLACK N9Z-00027',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Keys: 104 keys • Backlighting: no
+            • Numpad: no • Notice: touchpad-included',
+            'image' => '\assets\image\keyboard\kb(6).jpg',
+            'stock' => 999,
+            'price' => 1390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'SteelSeries GAMING KEYBOARD Mechanical Apex 5 Black',
+            'description' => '•	Interface: USB Cable • Keys: 104 keys • Backlighting: RGB
+            • Numpad: yes •	Notice: Software SteelSeries Engine 3.15+/Anti-Ghosting/Dynamic Per Key RGB Illumination',
+            'image' => '\assets\image\keyboard\kb(7).jpg',
+            'stock' => 999,
+            'price' => 3390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'KEYCHRON GAMING KEYBOARD K4 V.2 Wireless Mechanical Black-grey',
+            'description' => '•	Interface: Bluetooth 5.1 • Keys: 100 keys • Backlighting: RGB
+            • Numpad: yes •	Notice: Multi-device connectable(3 devices)',
+            'image' => '\assets\image\keyboard\kb(8).jpg',
+            'stock' => 999,
+            'price' => 4390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'HP USB GAMING KEYBOARD K110 BLACK',
+            'description' => '•	Interface: USB Wireless 2.4 GHz and Bluetooth 5.1 • Keys: 85 keys • Backlighting: no
+            • Numpad: no •	Notice: Multi-device connectable(3 devices)',
+            'image' => '\assets\image\keyboard\kb(9).jpg',
+            'stock' => 999,
+            'price' => 4390
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'HP USB GAMING KEYBOARD K110 BLACK',
+            'description' => '•	Interface: USB Type-C/Wireless 2.4GHz&Bluetooth • Keys: 104 keys • Backlighting: RGB
+            • Numpad: yes •	Notice: green/yellow switch',
+            'image' => '\assets\image\keyboard\kb(10).jpg',
+            'stock' => 999,
+            'price' => 7790
+        ],
+
         //Product category : Headset
         [
             'categoryID'=> 4,
@@ -432,8 +470,15 @@ class ProductSeeder extends Seeder
             'price' => 4000,
             'MSRP' => 4500
         ],
-
-        ];
+        [
+            'categoryID'=> 6,
+            'Pname' => 'speaker',
+            'description' => 'speaker',
+            'image' => '\assets\image\C_speaker.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ]];
         foreach ($products as $key => $value) {
             Product::create($value);
         }
