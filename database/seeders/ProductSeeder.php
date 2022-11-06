@@ -323,8 +323,8 @@ class ProductSeeder extends Seeder
             'Pname' => 'HEADSET RAZER BLACKSHARK V2 X (GREEN)',
             'description' => "RAZER™ TRIFORCE 50MM DRIVERS : Our all-new patented design allows our engineers to custom tune each driver as though there are three—allowing for the individual replications of high, mid and low audio frequencies to deliver on richer trebles, brighter sound and powerful bass.\n
             RAZER™ HYPERCLEAR CARDIOID MIC : Offering greater speech pickup and noise cancellation, the bendable mic on this lightweight esports headset has an optimized microphone housing which adopts a more open design for minimal obstruction—resulting in improved clarity for a closer recreation of your voice.\n
-            ADVANCED PASSIVE NOISE CANCELLATION : From cheering crowds to the hum of your rig, shut noise out and enjoy uninterrupted focus with special closed earcups that fully cover your ears, aided by plush cushions that form a closer seal for greater sound isolation.',
-            'image' => '\assets\image\headset\headset5.jpg",
+            ADVANCED PASSIVE NOISE CANCELLATION : From cheering crowds to the hum of your rig, shut noise out and enjoy uninterrupted focus with special closed earcups that fully cover your ears, aided by plush cushions that form a closer seal for greater sound isolation.",
+            'image' => '\assets\image\headset\headset5.jpg',
             'stock' => 999,
             'price' => 1890
         ],[
