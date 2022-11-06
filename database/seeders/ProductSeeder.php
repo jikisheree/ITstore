@@ -41,7 +41,7 @@ class ProductSeeder extends Seeder
             'Pname' => 'SAMSUNG MONITOR LF24T350FHEXXT (IPS 75 Hz)',
             'description' => '•	Size: 24.0 • Panel type: IPS • Max resolution: 1920 x 1080
             • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 5 ms',
-            'image' => '\assets\image\monitor\(3).jpg',
+            'image' => '\assets\image\monitor\(3).png',
             'stock' => 999,
             'price' => 4400
         ],
@@ -68,7 +68,7 @@ class ProductSeeder extends Seeder
             'Pname' => 'LG MONITOR 34WP65G-B (IPS 75Hz HDR USB-C UltraWide)',
             'description' => '•	Size: 34.0 • Panel type: IPS • Max resolution: 2560 x 1080
             • Widescreen: 21:9 • Refresh rate: 75 Hz • Ports: Display Port/HDMI/USB-C/ Headphone out • Respond time: 1 ms',
-            'image' => '\assets\image\monitor\(6).jpg',
+            'image' => '\assets\image\monitor\(6).png',
             'stock' => 999,
             'price' => 11500
         ],
@@ -77,7 +77,7 @@ class ProductSeeder extends Seeder
             'Pname' => 'MSI MONITOR OPTIX G32CQ4 (VA 2K 165Hz CURVED) ',
             'description' => '•	Size: 31.5 • Panel type: VA Curved • Max resolution: 2560 x 1440
             • Widescreen: 16:9 • Refresh rate: 165 Hz • Ports: Display Port/HDMI • Respond time: 1 ms',
-            'image' => '\assets\image\monitor\(7).jpg',
+            'image' => '\assets\image\monitor\(7).png',
             'stock' => 999,
             'price' => 10900
         ],
@@ -95,7 +95,7 @@ class ProductSeeder extends Seeder
             'Pname' => 'SKYWORTH MONITOR Ultrawide F34G3Q (IPS 144Hz HDR)',
             'description' => '•	Size: 34.0 • Panel type: IPS • Max resolution: 3440 x 1440
             • Widescreen: 21:9 • Refresh rate: 144 Hz • Ports: VGA/HDMI • Respond time: 1 ms',
-            'image' => '\assets\image\monitor\(9).jpg',
+            'image' => '\assets\image\monitor\(9).png',
             'stock' => 999,
             'price' => 19900
         ],
@@ -186,7 +186,7 @@ class ProductSeeder extends Seeder
             'categoryID'=> 2,
             'Pname' => 'GLORIOUS MOUSE MODEL O WIRELESS (MATTE WHITE-RGB)',
             'description' => '•	Interface: USB cable (2 m) • Resolution: 19000 dpi • Buttons: 6 buttons • Sensing: Glorious BAMF Sensor',
-            'image' => '\assets\image\mouse\mouse(10).jpg',
+            'image' => '\assets\image\mouse\mouse(10).png',
             'stock' => 999,
             'price' => 3590
         ],
@@ -224,7 +224,7 @@ class ProductSeeder extends Seeder
             'Pname' => 'OKER BLUETOOTH MULTI-DEVICE KEYBOARD (K-510) BLACK/WHITE ',
             'description' => '•	Interface: Bluetooth • Keys: 80 keys • Backlighting: RGB
             • Numpad: no • Notice: Multi-device connectable(3 devices)',
-            'image' => '\assets\image\keyboard\kb(4).jpg',
+            'image' => '\assets\image\keyboard\kb(4).png',
             'stock' => 999,
             'price' => 890
         ],
@@ -233,7 +233,7 @@ class ProductSeeder extends Seeder
             'Pname' => 'MOFII BLUETOOTH KEYBOARD (COTTON CANDY) A0144442',
             'description' => '•	Interface: Bluetooth • Keys: 84 keys • Backlighting: no
             • Numpad: no',
-            'image' => '\assets\image\keyboard\kb(5).jpg',
+            'image' => '\assets\image\keyboard\kb(5).png',
             'stock' => 999,
             'price' => 1290
         ],
@@ -242,7 +242,7 @@ class ProductSeeder extends Seeder
             'Pname' => 'MICROSOFT KEYBOARD WIRELESS (ALL-IN-ONE) BLACK N9Z-00027',
             'description' => '•	Interface: USB Wireless 2.4 GHz • Keys: 104 keys • Backlighting: no
             • Numpad: no • Notice: touchpad-included',
-            'image' => '\assets\image\keyboard\kb(6).jpg',
+            'image' => '\assets\image\keyboard\kb(6).png',
             'stock' => 999,
             'price' => 1390
         ],
@@ -260,7 +260,7 @@ class ProductSeeder extends Seeder
             'Pname' => 'KEYCHRON GAMING KEYBOARD K4 V.2 Wireless Mechanical Black-grey',
             'description' => '•	Interface: Bluetooth 5.1 • Keys: 100 keys • Backlighting: RGB
             • Numpad: yes •	Notice: Multi-device connectable(3 devices)',
-            'image' => '\assets\image\keyboard\kb(8).jpg',
+            'image' => '\assets\image\keyboard\kb(8).png',
             'stock' => 999,
             'price' => 4390
         ],
@@ -323,8 +323,8 @@ class ProductSeeder extends Seeder
             'Pname' => 'HEADSET RAZER BLACKSHARK V2 X (GREEN)',
             'description' => "RAZER™ TRIFORCE 50MM DRIVERS : Our all-new patented design allows our engineers to custom tune each driver as though there are three—allowing for the individual replications of high, mid and low audio frequencies to deliver on richer trebles, brighter sound and powerful bass.\n
             RAZER™ HYPERCLEAR CARDIOID MIC : Offering greater speech pickup and noise cancellation, the bendable mic on this lightweight esports headset has an optimized microphone housing which adopts a more open design for minimal obstruction—resulting in improved clarity for a closer recreation of your voice.\n
-            ADVANCED PASSIVE NOISE CANCELLATION : From cheering crowds to the hum of your rig, shut noise out and enjoy uninterrupted focus with special closed earcups that fully cover your ears, aided by plush cushions that form a closer seal for greater sound isolation.',
-            'image' => '\assets\image\headset\headset5.jpg",
+            ADVANCED PASSIVE NOISE CANCELLATION : From cheering crowds to the hum of your rig, shut noise out and enjoy uninterrupted focus with special closed earcups that fully cover your ears, aided by plush cushions that form a closer seal for greater sound isolation.",
+            'image' => '\assets\image\headset\headset5.jpg',
             'stock' => 999,
             'price' => 1890
         ],[
