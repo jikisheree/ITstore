@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Cart;
 use App\Models\Category;
+use App\Models\User;
 use Illuminate\Support\Facades\DB;
 use Nette\Utils\Strings;
 use Illuminate\Support\Facades\Auth;
