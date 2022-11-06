@@ -65,8 +65,8 @@
 <div class="p-5 rounded" style="background-color:#eaeaf4 ">
     @auth
     
-    <h1 class="tx-head">{{ $categorys }}</h1>
-    <p class="text" style="text-shadow: 2px 2px red; font-weight: 700;">Choose the product that you want to buy.</p>
+    <h1>Products</h1>
+    <p class="lead">Choose the product that you want to buy.</p>
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="row">

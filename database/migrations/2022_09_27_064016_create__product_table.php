@@ -18,10 +18,12 @@ return new class extends Migration
             $table->timestamps();
             $table->integer("categoryID")->nullable();
             $table->string("Pname", 255)->nullable();
-            $table->decimal("price", 6, 2);
-            $table->decimal("discount", 6, 2);
+            //$table->decimal("discount", 6, 2);
             $table->text("description")->nullable();
+            $table->decimal('productCode');
             $table->string("image", 255)->nullable();
+            $table->integer('MSRP');
+            $table->decimal("price", 6, 2);
             $table->integer("stock");
             
         });
