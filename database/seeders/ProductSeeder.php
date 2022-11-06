@@ -76,14 +76,6 @@ class ProductSeeder extends Seeder
             'stock' => 999,
             'price' => 4000,
             'MSRP' => 4500
-        ],[
-            'categoryID'=> 6,
-            'Pname' => 'speaker',
-            'description' => 'speaker',
-            'image' => '\assets\image\C_speaker.jpg',
-            'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
         ],
         //Product category : Headset
         [
