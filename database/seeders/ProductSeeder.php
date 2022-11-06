@@ -17,7 +17,6 @@ class ProductSeeder extends Seeder
         //
         $products = [[
             'categoryID'=> 1,
-            'productCode' =>'Samsung CRG50',
             'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
             'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
             'image' => '\assets\image\monitor1.jpg',
@@ -27,7 +26,6 @@ class ProductSeeder extends Seeder
         ],
         [
             'categoryID'=> 4,
-            'productCode' =>'headset',
             'Pname' => 'headset',
             'description' => 'headset',
             'image' => '\assets\image\C_headset.png',
@@ -37,7 +35,6 @@ class ProductSeeder extends Seeder
         ],
         [
             'categoryID'=> 3,
-            'productCode' =>'keyboard',
             'Pname' => 'keyboard',
             'description' => 'keyboard',
             'image' => '\assets\image\C_keyboard.jpg',
@@ -47,7 +44,6 @@ class ProductSeeder extends Seeder
         ],
         [
             'categoryID'=> 5,
-            'productCode' =>'microphone',
             'Pname' => 'microphone',
             'description' => 'microphone',
             'image' => '\assets\image\C_microphone.jpg',
@@ -57,7 +53,6 @@ class ProductSeeder extends Seeder
         ],
         [
             'categoryID'=> 1,
-            'productCode' =>'monitor',
             'Pname' => 'monitor',
             'description' => 'monitor',
             'image' => '\assets\image\C_monitor.jpg',
@@ -67,7 +62,6 @@ class ProductSeeder extends Seeder
         ],
         [
             'categoryID'=> 2,
-            'productCode' =>'mouse',
             'Pname' => 'mouse',
             'description' => 'mouse',
             'image' => '\assets\image\C_mouse.jpg',
@@ -76,7 +70,6 @@ class ProductSeeder extends Seeder
             'MSRP' => 4500
         ],[
             'categoryID'=> 6,
-            'productCode' =>'speaker',
             'Pname' => 'speaker',
             'description' => 'speaker',
             'image' => '\assets\image\C_speaker.jpg',

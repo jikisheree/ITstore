@@ -110,7 +110,7 @@ DROP TABLE IF EXISTS `orderdetails`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `orderdetails` (
   `orderNumber` int(11) NOT NULL,
-  `productCode` varchar(15) NOT NULL,
+  `productCode` int AUTO_INCREMENT NOT NULL,
   `quantityOrdered` int(11) NOT NULL,
   `priceEach` decimal(10,2) NOT NULL,
   `orderLineNumber` smallint(6) NOT NULL,
@@ -206,7 +206,7 @@ DROP TABLE IF EXISTS `products`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `products` (
   `categoryID` int(11) NOT NULL,
-  `productCode` varchar(15) NOT NULL,
+  `productCode` int AUTO_INCREMENT NOT NULL,
   `Pname` varchar(70) NOT NULL,
   `description` text NOT NULL,
   `image` varchar(255) DEFAULT NULL,

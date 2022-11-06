@@ -78,7 +78,7 @@
                             <p class="overflow-md-auto">{{ $product->description }}</p>
                             <p>{{ $product->stock }}</p>
                             <p><strong>Price: </strong> {{ $product->price }}$</p>
-                            <p class="btn-holder"><a href="{{ route('add.to.cart', $product->id) }}" class="btn btn-warning btn-block text-center" role="button">Add to cart</a> </p>
+                            <p class="btn-holder"><a href="{{ route('add.to.cart', $product->productCode) }}" class="btn btn-warning btn-block text-center" role="button">Add to cart</a> </p>
                         </div>
                     </div>
                 </div>

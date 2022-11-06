@@ -40,7 +40,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
          * Logout Routes
          */
         Route::get('/logout', 'LogoutController@perform')->name('logout.perform');
-        Route::get('/_cart', 'ProductController@cart')->name('cart');
+        Route::get('/cart', 'ProductController@cart')->name('cart');
         Route::get('/add-to-cart/{id}', 'ProductController@addToCart')->name('add.to.cart');
         Route::delete('/remove-from-cart/{id}', 'ProductController@remove')->name('remove.from.cart');
     });
