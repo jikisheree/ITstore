@@ -110,7 +110,7 @@ DROP TABLE IF EXISTS `orderdetails`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `orderdetails` (
   `orderNumber` int(11) NOT NULL,
-  `productCode` int AUTO_INCREMENT NOT NULL,
+  `productCode` int  NOT NULL,
   `quantityOrdered` int(11) NOT NULL,
   `priceEach` decimal(10,2) NOT NULL,
   `orderLineNumber` smallint(6) NOT NULL,
@@ -137,11 +137,11 @@ DROP TABLE IF EXISTS `orders`;
 CREATE TABLE `orders` (
   `orderNumber` int(11) NOT NULL,
   `orderDate` date NOT NULL,
+  `userNumber` int(11) NOT NULL,
   `requiredDate` date NOT NULL,
   `shippedDate` date DEFAULT NULL,
   `status` varchar(15) NOT NULL,
   `comments` text DEFAULT NULL,
-  `userNumber` int(11) NOT NULL,
   PRIMARY KEY (`orderNumber`),
   KEY `userNumber` (`userNumber`),
   CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`userNumber`) REFERENCES `users` (`userNumber`)
