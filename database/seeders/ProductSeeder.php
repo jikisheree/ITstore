@@ -18,6 +18,7 @@ class ProductSeeder extends Seeder
         $products = [
         
         //Product category : Monitor
+<<<<<<< HEAD
         [
             'categoryID'=> 1,
             'Pname' => 'VIEWSONIC MONITOR VA2432-H (IPS 75 Hz)',
@@ -283,6 +284,8 @@ class ProductSeeder extends Seeder
             'price' => 7790
         ],
 
+=======
+>>>>>>> 58a9d8e88c96c980ac1f1c1fd82885a9a1c28f15
         //Product category : Headset
         [
             'categoryID'=> 4,
