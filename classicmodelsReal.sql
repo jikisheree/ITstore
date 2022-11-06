@@ -212,7 +212,6 @@ CREATE TABLE `products` (
   `image` varchar(255) DEFAULT NULL,
   `stock` smallint(6) NOT NULL,
   `price` decimal(10,2) NOT NULL,
-  `MSRP` decimal(10,2) NOT NULL,
   
   PRIMARY KEY (`productCode`),
   CONSTRAINT `products_ibfk_1` FOREIGN KEY (`categoryID`) REFERENCES `Category` (`categoryID`)
