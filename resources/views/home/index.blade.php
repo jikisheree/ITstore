@@ -18,9 +18,8 @@
         }
 
         .text {
-            font-family: 'Didot';
             font-family: 'Prompt', 'Roboto Slab';
-            font-size: 20px;
+            font-size: 25px;
             font-weight: 700;
             line-height: 25px;
 
@@ -46,10 +45,10 @@
         }
     </style>
 </head>
-<div class="bg-light p-5">
+<div class="bg-light px-5">
     @auth
     <h1 class="tx-head">Products</h1>
-    <p class="text" style="text-shadow: 2px 2px red; ">Choose the product that you want to buy.</p>
+    <p class="text" >Choose the product that you want to buy.</p>
 
     <div class="row">
         @foreach($products as $product)

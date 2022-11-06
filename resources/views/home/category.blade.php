@@ -13,11 +13,11 @@
                 @php
                 $i++;
                 @endphp
-                <div class="card mx-3 mb-3" style="width: 18rem;">
+                <div class="card mx-3 mb-3" style="width: 18rem; border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <img class="card-img-top my-3" style="height: 200px;" src="{{ $category->image }}" alt="Card image cap">
                     <div class="card-body mx-auto">
                         <h5 class="card-title text-center">{{ $category->categoryName }}</h5>
-                        <a href="/index/p/{{ $i }}" class="btn btn-primary">See Product</a>
+                        <a href="/index/p/{{ $i }}" class="btn btn-block text-center btn-outline-danger">See Product</a>
                     </div>
                 </div>
                 @endforeach
