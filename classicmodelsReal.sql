@@ -109,15 +109,14 @@ DROP TABLE IF EXISTS `carts`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `carts` (
-  `itemNumber` int AUTO_INCREMENT  NOT NULL,
+  `orderNumber` int(11) NOT NULL,
   `productCode` int  NOT NULL,
-  `Pname` varchar(70) NOT NULL,
   `quantityOrdered` int(11) NOT NULL,
   `priceEach` decimal(10,2) NOT NULL,
-  `usernumber` int(11) NOT NULL,
-  `image` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`itemNumber`,`productCode`),
+  `orderLineNumber` smallint(6) NOT NULL,
+  PRIMARY KEY (`orderNumber`,`productCode`),
   KEY `productCode` (`productCode`),
+  CONSTRAINT `carts_ibfk_1` FOREIGN KEY (`orderNumber`) REFERENCES `orders` (`orderNumber`),
   CONSTRAINT `carts_ibfk_2` FOREIGN KEY (`productCode`) REFERENCES `products` (`productCode`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -136,7 +135,7 @@ DROP TABLE IF EXISTS `orders`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `orders` (
-  `orderNumber` int AUTO_INCREMENT NOT NULL,
+  `orderNumber` int(11) NOT NULL,
   `orderDate` date NOT NULL,
   `userNumber` int(11) NOT NULL,
   `requiredDate` date NOT NULL,
@@ -213,7 +212,6 @@ CREATE TABLE `products` (
   `image` varchar(255) DEFAULT NULL,
   `stock` smallint(6) NOT NULL,
   `price` decimal(10,2) NOT NULL,
-  `MSRP` decimal(10,2) NOT NULL,
   
   PRIMARY KEY (`productCode`),
   CONSTRAINT `products_ibfk_1` FOREIGN KEY (`categoryID`) REFERENCES `Category` (`categoryID`)

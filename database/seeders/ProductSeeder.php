@@ -14,12 +14,68 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        //
-        $products = [[
+    
+        $products = [
+        
+        //Product category : Monitor
+        [
             'categoryID'=> 1,
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'image' => '\assets\image\monitor1.jpg',
+            'Pname' => 'VIEWSONIC MONITOR VA2432-H (IPS 75 Hz)',
+            'description' => '•	Size: 24.0 • Panel type: IPS • Max resolution: 1920 x 1080
+            • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 4 ms',
+            'image' => '\assets\image\monitor\(1).jpg',
+            'stock' => 999,
+            'price' => 3990
+        ],
+        [
+            'categoryID'=> 4,
+            'Pname' => 'headset',
+            'description' => 'headset',
+            'image' => '\assets\image\C_headset.png',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],
+        [
+            'categoryID'=> 3,
+            'Pname' => 'keyboard',
+            'description' => 'keyboard',
+            'image' => '\assets\image\C_keyboard.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],
+        [
+            'categoryID'=> 5,
+            'Pname' => 'microphone',
+            'description' => 'microphone',
+            'image' => '\assets\image\C_microphone.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'monitor',
+            'description' => 'monitor',
+            'image' => '\assets\image\C_monitor.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'mouse',
+            'description' => 'mouse',
+            'image' => '\assets\image\C_mouse.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'speaker',
+            'description' => 'speaker',
+            'image' => '\assets\image\C_speaker.jpg',
             'stock' => 999,
             'price' => 4000,
             'MSRP' => 4500
@@ -31,8 +87,7 @@ class ProductSeeder extends Seeder
             'description' => "Gaming headphones that give your gaming experience more realistic with 7.1 virtual surround sound system that simulates in-game sound in all directions and with 50 mm speakers that deliver powerful and clear sound. Will not let you miss the chance to win the game for sure. The headphones are beautifully designed, emphasizing elegance, decorated with Spectrum LED lights, there is a rolling switch to adjust the volume on the side of the headphones with a short microphone that picks up the sound around. direction Flexible and durable headband for added comfort.",
             'image' => '\assets\image\headset\headset1.jpg',
             'stock' => 999,
-            'price' => 200,
-            'MSRP' => 450
+            'price' => 450
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET ONIKUMA X15 PRO RGB (BLACK)',
@@ -43,8 +98,7 @@ class ProductSeeder extends Seeder
             5.Using 50mm super large sound unit, three-frequency balance, accurate positioning,left and right stereo speakers, to achieve three-dimensional sound quality.",
             'image' => '\assets\image\headset\headset2.jpg',
             'stock' => 999,
-            'price' => 400,
-            'MSRP' => 750
+            'price' => 750
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET ONIKUMA X15 PRO RGB AUX 3.5 (PINK)',
@@ -53,16 +107,14 @@ class ProductSeeder extends Seeder
             DYNAMIC RAINBOW LIGHT : Aluminum-steel mixed head beam, transparent head beam shell, with breathing gradient lighting effect, releasing gorgeous lighting effects",
             'image' => '\assets\image\headset\headset3.jpg',
             'stock' => 999,
-            'price' => 500,
-            'MSRP' => 750
+            'price' => 750
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET FANTECH VALOR MH86 SPACE EDITION (WHITE)',
             'description' => "Fantech VALOR MH86 SPACE EDITION is one kind of Multi Platform Gaming Headset. It is flexible and incredibly durable. it has been tested extensively to withstand the rigors of pro-gaming. This gaming headset designed with Adjustable Steel Headband, Foldable Mircrophone, Adjustable Earcup Angle. The gaming headphone is Multi-Platform Compatibility type. Here, the microphone is featured with Microphone Frequency Response 100-10,000Hz, Microphone Pattern Omni-directional, Sensitivity -42dB, Impedance 2200 Ohm, Microphone Noise Cancellation, Foldable Microphone Design and Microphone Mute Toggle On Remote Control. This headphone desiogned with With only 280gr weight. but still flexible and incredibly durable. it has been tested extensively to withstand the rigors of pro-gaming. In this headphone, the speakers featured with Speaker Driver 50mm, Headset Frequency Response 20-20,000Hz, Headset Sensitivity 110dB, Headset Impedance 32 Ohm, Headset Total Harmonic Distortion <5%, Headset Volume Control On Remote control. This Headphone supports with PC, Playstation, Xbox, Mobile and Mac. The latest Fantech VALOR MH86 SPACE EDITION Gaming Headphone has 01 year warranty.",
             'image' => '\assets\image\headset\headset4.jpg',
             'stock' => 999,
-            'price' => 500,
-            'MSRP' => 790
+            'price' => 790
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET RAZER BLACKSHARK V2 X (GREEN)',
@@ -71,8 +123,7 @@ class ProductSeeder extends Seeder
             ADVANCED PASSIVE NOISE CANCELLATION : From cheering crowds to the hum of your rig, shut noise out and enjoy uninterrupted focus with special closed earcups that fully cover your ears, aided by plush cushions that form a closer seal for greater sound isolation.',
             'image' => '\assets\image\headset\headset5.jpg",
             'stock' => 999,
-            'price' => 1200,
-            'MSRP' => 1890
+            'price' => 1890
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET HyperX CLOUD STINGER CORE WIRELESS',
@@ -87,8 +138,7 @@ class ProductSeeder extends Seeder
             ",
             'image' => '\assets\image\headset\headset6.jpg',
             'stock' => 999,
-            'price' => 1100,
-            'MSRP' => 2090
+            'price' => 2090
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET RAZER KAIRA X FOR XBOX (WHITE)',
@@ -97,8 +147,7 @@ class ProductSeeder extends Seeder
             In addition to audio performance, the accompanying RAZER™ HYPERCLEAR CARDIOID MIC is equally good. It is a microphone that picks up sound from the front. with reduced noise from the back and sides Provides smooth and uninterrupted coordination in the game The Razer Kaira X for Xbox Gaming Headphone has a control panel on the left earcup. You can adjust the volume and turn the mic on and off directly. Anyone who is looking for Xbox console gaming headphones, especially with full sound and quality microphone.",
             'image' => '\assets\image\headset\headset7.jpg',
             'stock' => 999,
-            'price' => 1500,
-            'MSRP' => 2490
+            'price' => 2490
         ],[
             'categoryID'=> 4,
             'Pname' => 'BLUETOOTH HEADSET RAZER KRAKEN BT (KITTY EDITION) (QUARTZ)',
@@ -109,8 +158,7 @@ class ProductSeeder extends Seeder
             BEAMFORMING MICROPHONE : With a sweet spot for your voice that's designed to pick up less noise from every other direction, the mic has no problems helping you sound as good as you look.",
             'image' => '\assets\image\headset\headset8.jpg',
             'stock' => 999,
-            'price' => 2000,
-            'MSRP' => 3590
+            'price' => 3590
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET CORSAIR VIRTUOSO RGB WIRELESS (CARBON)',
@@ -121,17 +169,16 @@ class ProductSeeder extends Seeder
             DISCORD CERTIFIED : Throughly tested microphone and audio drivers for clear communication and outstanding sound',
             'image' => '\assets\image\headset\headset9.jpg',
             'stock' => 999,
-            'price' => 4500,
-            'MSRP' => 6790
+            'price' => 6790
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET CORSAIR VIRTUOSO RGB WIRELESS HIGH-FIDELITY GAMING HEADSET-PERL',
             'description' => 'The CORSAIR VIRTUOSO RGB Wireless delivers a high-fidelity audio experience, all-day comfort from its premium memory foam earpads, and hyper-fast connectivity with SLIPSTREAM WIRELESS technology.',
             'image' => '\assets\image\headset\headset10.jpg',
             'stock' => 999,
-            'price' => 4500,
-            'MSRP' => 6790
+            'price' => 6790
         ],
+
         //Product category : mic
         [
             'categoryID'=> 5,
@@ -139,83 +186,164 @@ class ProductSeeder extends Seeder
             'description' => 'Nubwo M31 is a desktop gaming microphone. Distinctive with a cool design in the style of gaming gear with RGB lighting on the mic base, which is designed to be a built-in smartphone stand. Can be placed both vertically and horizontally This mic is a dynamic type. Get the sound straight ahead Sound receiving frequency range 100 to 10,000 Hz, comes with windproof sponge. Provides clear sound quality, fine details, responds to communication while playing games quickly.In addition, the mic stem area is flexible and free to adjust and there is a mute button on the mic for muting. This mic connects via USB cable and is easy to use with both Windows and MacOS computers. It is an ideal gaming mic for entry-level gamers who are looking for their first mic to use. Good quality at an affordable price. The basic functions are complete. Cool design meets gaming needs',
             'image' => '\assets\image\microphone\mic1.jpg',
             'stock' => 999,
-            'price' => 120,
-            'MSRP' => 240
+            'price' => 240
         ],[
             'categoryID'=> 5,
-            'Pname' => 'USB MICROPHONE ARROW X YDK-M1',
-            'description' => 'keyboard',
+            'Pname' => 'MICROPHONE Signo MP-701',
+            'description' => "The Signo MP-701 is a budget gaming microphone from budget gaming brand Signo. It comes as a condenser mic with a complete set of professional stand and accessories. It's easy to use as it comes with a connection port. Aux 3.5mm connection, just plug the jack into your computer or notebook and it's ready to go.",
             'image' => '\assets\image\microphone\mic2.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 750
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HyperX SOLOCAST',
-            'description' => 'keyboard',
+            'description' => "Plug N Play audio recording : Get quality audio recordings with this easy-to-use USB condenser microphone. The cardioid polar pattern prioritizes sound sources directly in front of the microphone./n
+            Tap-to-Mute sensor with LED status indicator : Simply tap the top of the mic to mute, and the signature LED indicator lets you immediately see whether or not you're broadcasting./n
+            Flexible, adjustable stand : The easy-to-position stand swivels to support a variety of setups. You can even fit it under a monitor if your setup is tight on space./n
+            Boom arm and mic stand threading : Versatile microphone fits 3/8-inch and 5/8-inch threaded setups, making it compatible with most mic stands or boom arms1.
+            Multi-device and program compatibility : Get great sound whether you're connecting to a PC, PS4™, or Mac®. SoloCast is certified by Discord and TeamSpeak™, and works on major streaming platforms like Streamlabs OBS, OBS Studio, and XSplit.
+            ",
             'image' => '\assets\image\microphone\mic3.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 1690
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE SARAMONIC SR-MV2000',
-            'description' => 'keyboard',
+            'description' => "SR-MV2000 features studio mics, a built-in pop filter, a cardioid pickup pattern, and a high-quality 3.5mm headphone output, complete with precision volume control, allowing you to deliver warmth and presence for a clear, professional sound while easily monitoring your audio. A unique detachable magnetic desk stand makes SR-MV2000 easy to mitigate knocks and bumps while removing. What's better, integrated 360-degree swing mount design can be quick and easy positioning on a desk, mic stand, or studio arm.\n
+            With a compact body and multi-color LED indicator, the SR-MV2000 has refined what's the quick and easy way to record. Just plug it in, and it works. Don't miss the best microphone you will ever have.",
             'image' => '\assets\image\microphone\mic4.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 2800
+
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX QUADCAST S WHITE',
-            'description' => 'keyboard',
+            'description' => '• Radiant RGB lighting with dynamic effects • Anti-Vibration shock mount• Tap-to-Mute sensor with LED indicator • Four selectable polar patterns• Convenient gain control adjustment• Customizable via HyperX NGENUITY Software • Mount adapter, built-in pop filter, and headphone jack • Multi-device and program compatibility',
             'image' => '\assets\image\microphone\mic5.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 5990
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX DUOCAST USB',
-            'description' => 'keyboard',
+            'description' => '• RGB Lighting • Customizable with NGENUITY software • Tap-to-mute sensor with LED status indicator • Cardioid, Omnidirectional',
             'image' => '\assets\image\microphone\mic6.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 3290
         ],[
             'categoryID'=> 5,
             'Pname' => 'USB MICROPHONE BLUE YETI NANO (SHADOW GREY)',
-            'description' => 'keyboard',
+            'description' => '• Legendary Blue broadcast sound qualit • Enhanced Blue VO!CE vocal effects • Cardioid and Omni pickup patterns',
             'image' => '\assets\image\microphone\mic7.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 6990
         ],[
             'categoryID'=> 5,
             'Pname' => 'USB MICROPHONE BLUE YETI NANO (MIDNIGHT BLUE)',
-            'description' => 'keyboard',
+            'description' => '• Legendary Blue broadcast sound qualit • Enhanced Blue VO!CE vocal effects • Cardioid and Omni pickup patterns',
             'image' => '\assets\image\microphone\mic8.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 4500
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX PROCAST XLR',
-            'description' => 'keyboard',
+            'description' => '• Gold-sputtered large diaphragm condenser • Cardioid polar pattern • XLR Connection • Detachable HyperX Shield metal pop filter',
             'image' => '\assets\image\microphone\mic9.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 4500
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE SHURE MV7 (SILVER)',
-            'description' => 'keyboard',
+            'description' => '• MV7 • Dynamic podcast microphone with both USB and XLR outputs • for use with computers and professional interfaces.',
             'image' => '\assets\image\microphone\mic10.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 4500
         ],
 
-        ];
+        //Product category : Speaker
+        [
+            'categoryID'=> 6,
+            'Pname' => 'SPEAKER FANTECH SONAR GS202 MOBILE GAMING & MUSIC SPEAKER (BLACK)',
+            'description' => '• Portable USB2.0 Speaker • 45MM Driver Unit • RGB Illumination
+            ',
+            'image' => '\assets\image\speaker\speaker1.jpg',
+            'stock' => 999,
+            'price' => 290
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'SPEAKER FANTECH SONAR GS202 MOBILE GAMING & MUSIC SPEAKER (SAKURA EDITION) (PINK)',
+            'description' => '• Portable USB 2.0 + 3.5mm TRRS jack Speaker • 45MM Driver Unit •	RGB Illumination • Dimension : 80 x 80 x 100mm
+            ',
+            'image' => '\assets\image\speaker\speaker2.jpg',
+            'stock' => 999,
+            'price' => 320
+        ],
+        [
+            'categoryID'=> 6,
+            'Pname' => 'SPEAKER EDIFIER M101BT PREFERT FOR YOUR HOME THEATER SYDTEM (BLACK)',
+            'description' => '• 2.1 Bluetooth multimedia speakers system • Supports AUX audio inputs for different types of media devices • 100% wooden subwoofer with 4" bass driver • Side-mounted volume adjustment for easy controls3.SPEAKER EDIFIER R12U 2.0 (WHITE)
+            ',
+            'image' => '\assets\image\speaker\speaker3.jpg',
+            'stock' => 999,
+            'price' => 1090
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER SOUL S-STORM (BEIGE)',
+            'description' => '•	Bluetooth 5.0 • Up to 20 Hours Play Time • Weatherproof & Floatable (IP68 Rating) •	For Music & Calls •	USB-C Quick Charge • Portable & Convenient
+            ',
+            'image' => '\assets\image\speaker\speaker4.jpg',
+            'stock' => 999,
+            'price' => 1590
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'SPEAKER EDIFIER G2000 BLUETOOTH 2.0 GAMING SPEAKERS WITH RGB LIGHTING (WHITE)',
+            'description' => '•	2.75 inch full-range unit with 16W RMS power output • Column-shaped cabinet with backward mega bass port • 12 light effects enhance gaming experience •	Mechanical shift lever easy to control volume •	Music, Game and Movie sound mode supported • Bluetooth/USB sound card/AUX input available •	Dedicated power adapter for stable and safety power supply • Subwoofer output interface included
+            ',
+            'image' => '\assets\image\speaker\speaker5.jpg',
+            'stock' => 999,
+            'price' => 2790
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER ANKER SOUNDCORE MOTION+ (BLACK) (A3116H11-AK184/SC24)',
+            'description' => "•	Hi-res Audio: motion+ is equipped with stunning Hi-Res Audio which is further enhanced by Qualcomm aptX for lossless music reproduction when streaming via Bluetooth. •	Huge sound with intense bass: packed with two Ultra high-frequency tweeters, neodymium woofers, and passive radiators to fill every corner of your room with 30W of rich sound. Low frequencies are enhanced in real-time by our exclusive bassuptm technology. • Exceptional depth and clarity: motion+'s Ultra-wide frequency range stretches from 50 Hz to 40 kHz and is paired with an advanced DSP to ensure all the details and idiosyncrasies of a song are faithfully reproduced. •	IPX7 waterproof: fully-waterproof casing provides an impenetrable barrier against liquids. • 12-Hour playtime: motion+'s built-in 6, 700 mAh battery lets you effortlessly soundtrack wild weekends, cozy evenings, or long summer days outdoors.
+            ",
+            'image' => '\assets\image\speaker\speaker6.jpg',
+            'stock' => 999,
+            'price' => 4490
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER SONOS ROAM (LUNAR WHITE)',
+            'description' => '•	Waterproof (IP67) •	Apple AirPlay 2 • Drop resistant • Button controls • 10 hour battery life •	WiFi • Automatic Trueplay™ • Bluetooth® • Voice enabled
+            ',
+            'image' => '\assets\image\speaker\speaker7.jpg',
+            'stock' => 999,
+            'price' => 9990
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER SONOS ONE GEN 2 (BLACK)',
+            'description' => '•	Voice enabled •	Touch controls • Humidity resistant • WiFi • Apple AirPlay 2
+            ',
+            'image' => '\assets\image\speaker\speaker8.jpg',
+            'stock' => 999,
+            'price' => 10900
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER JBL PARTYBOX 110 ',
+            'description' => '•	Bluetooth 5.1 & 3.5mm Jack • Mic & Guitar inputs • 160W RMS • Dynamic light show
+            ',
+            'image' => '\assets\image\speaker\speaker9.jpg',
+            'stock' => 999,
+            'price' => 17900
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'BLUETOOTH SPEAKER JBL PARTYBOX 710',
+            'description' => '•	Bluetooth 5,1 •	800W RMS party speaker • Customizable lightshow • IPX4 splashproof
+            ',
+            'image' => '\assets\image\speaker\speaker10.jpg',
+            'stock' => 999,
+            'price' => 32900
+        ]
+
+    ];
         foreach ($products as $key => $value) {
             Product::create($value);
         }
