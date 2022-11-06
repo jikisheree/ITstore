@@ -64,4 +64,20 @@ class ProductController extends Controller
         });
         return back()->with('success', 'Product removed successfully');
     }
+    public function checkout($total,$id){
+        $user = $this->User;
+        $cart = Cart::findOrFail($id);
+        $product = Product::where('Pname', '=', $cart->Pname)->first();
+        DB::transaction(function() use ($total,$user,$product,$cart){
+            if($user->credit >= $total){
+                $user->credit = $user->credit - $total;
+                $user->save();
+                $product->stock = $product->stock - 1;
+                DB::delete('select * from carts');
+            }else{
+                return redirect()->back()->with('fail','Checkout fail');
+            }
+        });
+        return back()->with('success','Checkout successfully');
+    }
 }
