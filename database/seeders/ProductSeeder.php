@@ -28,8 +28,8 @@ class ProductSeeder extends Seeder
         [
             'categoryID'=> 4,
             'productCode' =>'headset',
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'Pname' => 'headset',
+            'description' => 'headset',
             'image' => '\assets\image\C_headset.png',
             'stock' => 999,
             'price' => 4000,
@@ -38,9 +38,9 @@ class ProductSeeder extends Seeder
         [
             'categoryID'=> 3,
             'productCode' =>'keyboard',
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'image' => '\assets\image\C_keyboard.png',
+            'Pname' => 'keyboard',
+            'description' => 'keyboard',
+            'image' => '\assets\image\C_keyboard.jpg',
             'stock' => 999,
             'price' => 4000,
             'MSRP' => 4500
@@ -48,9 +48,9 @@ class ProductSeeder extends Seeder
         [
             'categoryID'=> 5,
             'productCode' =>'microphone',
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'image' => '\assets\image\C_microphone.png',
+            'Pname' => 'microphone',
+            'description' => 'microphone',
+            'image' => '\assets\image\C_microphone.jpg',
             'stock' => 999,
             'price' => 4000,
             'MSRP' => 4500
@@ -58,9 +58,9 @@ class ProductSeeder extends Seeder
         [
             'categoryID'=> 1,
             'productCode' =>'monitor',
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'image' => '\assets\image\C_monitor.png',
+            'Pname' => 'monitor',
+            'description' => 'monitor',
+            'image' => '\assets\image\C_monitor.jpg',
             'stock' => 999,
             'price' => 4000,
             'MSRP' => 4500
@@ -68,18 +68,18 @@ class ProductSeeder extends Seeder
         [
             'categoryID'=> 2,
             'productCode' =>'mouse',
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'image' => '\assets\image\C_mouse.png',
+            'Pname' => 'mouse',
+            'description' => 'mouse',
+            'image' => '\assets\image\C_mouse.jpg',
             'stock' => 999,
             'price' => 4000,
             'MSRP' => 4500
         ],[
             'categoryID'=> 6,
             'productCode' =>'speaker',
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'image' => '\assets\image\C_speaker.png',
+            'Pname' => 'speaker',
+            'description' => 'speaker',
+            'image' => '\assets\image\C_speaker.jpg',
             'stock' => 999,
             'price' => 4000,
             'MSRP' => 4500

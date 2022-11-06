@@ -22,11 +22,19 @@ class RegisterRequest extends FormRequest
      */
     public function rules()
     {
-        return [
-            'email' => 'required|email:rfc,dns|unique:users,email',
-            'username' => 'required|unique:users,username',
+        return [ 
+            'email' => 'required|email:rfc,dns|unique:users,email', 
+            'username' => 'required|unique:users,username', 
             'password' => 'required|min:8',
-            'password_confirmation' => 'required|same:password'
-        ];
+            'password_confirmation'=> 'required|same:password',
+            'contactFirstName' => 'required|String', 
+            'contactLastName' => 'required|String', 
+            'phone' => 'required|String', 
+            'city' => 'required|String', 
+            'state' => 'required|String', 
+            'postalCode' => 'required|String', 
+            'country' => 'required|String', 
+            'creditLimit'  => 'required'
+      ];
     }
 }
