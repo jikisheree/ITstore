@@ -16,7 +16,7 @@
         @php $total = 0 @endphp
         @foreach( $carts as $cart )
         <tr>
-            @php $total += $cart->price*$cart->quantity @endphp
+            @php $total += $cart->priceEach*$cart->quantityOrdered @endphp
             <td>
                 <div class="row">
                     <div class="col-sm-3 hidden-xs"><img src="{{ $cart->image }}" width="100" height="100" class="img-responsive" /></div>
@@ -24,12 +24,12 @@
                     </div>
                 </div>
             </td>
-            <td>{{ $cart->name }}</td>
-            <td class="inner-table">{{ $cart->price }}</td>
-            <td class="inner-table">{{ $cart->quantity }}
-            <td data-th="Subtotal" class="text-center">{{$cart->price*$cart->quantity}}</td>
+            <td>{{ $cart->Pname }}</td>
+            <td class="inner-table">{{ $cart->priceEach }}</td>
+            <td class="inner-table">{{ $cart->quantityOrdered }}
+            <td data-th="Subtotal" class="text-center">{{$cart->priceEach*$cart->quantityOrdered}}</td>
             <td>
-                <form action="{{ url('remove-from-cart/'.$cart->id) }}" method="POST">
+                <form action="{{ url('remove-from-cart/'.$cart->itemNumber) }}" method="POST">
                     @csrf
                     @method('DELETE')
                     <button class="btn btn-danger"><i class="fa fa-trash-o"></i></button>
