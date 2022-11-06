@@ -19,70 +19,71 @@ class ProductSeeder extends Seeder
             'categoryID'=> 1,
             'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
             'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
-            'productCode' => 1,
             'image' => '\assets\image\monitor1.jpg',
-            'MSRP' => 4500,
+            'stock' => 999,
             'price' => 4000,
-            'stock' => 999
+            'MSRP' => 4500
         ],
         [
             'categoryID'=> 4,
             'Pname' => 'headset',
             'description' => 'headset',
-            'productCode' => 2,
             'image' => '\assets\image\C_headset.png',
-            'MSRP' => 4500,
+            'stock' => 999,
             'price' => 4000,
-            'stock' => 999
+            'MSRP' => 4500
         ],
         [
             'categoryID'=> 3,
             'Pname' => 'keyboard',
             'description' => 'keyboard',
-            'productCode' => 3,
             'image' => '\assets\image\C_keyboard.jpg',
-            'MSRP' => 4500,
+            'stock' => 999,
             'price' => 4000,
-            'stock' => 999
+            'MSRP' => 4500
         ],
         [
             'categoryID'=> 5,
             'Pname' => 'microphone',
             'description' => 'microphone',
-            'productCode' => 4,
             'image' => '\assets\image\C_microphone.jpg',
-            'MSRP' => 4500,
+            'stock' => 999,
             'price' => 4000,
-            'stock' => 999
+            'MSRP' => 4500
         ],
         [
             'categoryID'=> 1,
             'Pname' => 'monitor',
             'description' => 'monitor',
-            'productCode' => 5,
             'image' => '\assets\image\C_monitor.jpg',
-            'MSRP' => 4500,
+            'stock' => 999,
             'price' => 4000,
-            'stock' => 999
+            'MSRP' => 4500
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'mouse',
             'description' => 'mouse',
-            'productCode' => 6,
             'image' => '\assets\image\C_mouse.jpg',
-            'MSRP' => 4500,
+            'stock' => 999,
             'price' => 4000,
-            'stock' => 999
+            'MSRP' => 4500
         ],[
             'categoryID'=> 6,
             'Pname' => 'speaker',
             'description' => 'speaker',
-            'productCode' => 7,
-            'image' => '\assets\image\C_speaker.jpeg',
-            'MSRP' => 4500,
+            'image' => '\assets\image\C_speaker.jpg',
+            'stock' => 999,
             'price' => 4000,
-            'stock' => 999
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 6,
+            'Pname' => 'speaker',
+            'description' => 'speaker',
+            'image' => '\assets\image\C_speaker.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
         ],
         //Product category : Headset
         [
@@ -90,9 +91,9 @@ class ProductSeeder extends Seeder
             'Pname' => 'HEADSET NUBWO GAMER X98 7.1 (BLACK)',
             'description' => "Gaming headphones that give your gaming experience more realistic with 7.1 virtual surround sound system that simulates in-game sound in all directions and with 50 mm speakers that deliver powerful and clear sound. Will not let you miss the chance to win the game for sure. The headphones are beautifully designed, emphasizing elegance, decorated with Spectrum LED lights, there is a rolling switch to adjust the volume on the side of the headphones with a short microphone that picks up the sound around. direction Flexible and durable headband for added comfort.",
             'image' => '\assets\image\headset\headset1.jpg',
-            'MSRP' => 450,
+            'stock' => 999,
             'price' => 200,
-            'stock' => 999
+            'MSRP' => 450
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET ONIKUMA X15 PRO RGB (BLACK)',
@@ -102,9 +103,9 @@ class ProductSeeder extends Seeder
             4.The ear shell is equipped with volume control keys and microphone switch keys\n
             5.Using 50mm super large sound unit, three-frequency balance, accurate positioning,left and right stereo speakers, to achieve three-dimensional sound quality.",
             'image' => '\assets\image\headset\headset2.jpg',
-            'MSRP' => 750,
-            'price' => 400,
             'stock' => 999,
+            'price' => 400,
+            'MSRP' => 750
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET ONIKUMA X15 PRO RGB AUX 3.5 (PINK)',
@@ -112,17 +113,17 @@ class ProductSeeder extends Seeder
             VIRTUAL SURROUND SOUND : Accurate sound positioning, even in the face of complex battlefields, it can quickly locate the enemy's position. Whether it's a deafening explosion or silent footsteps, it can be truly captured, bringing a shocking gaming experience\n
             DYNAMIC RAINBOW LIGHT : Aluminum-steel mixed head beam, transparent head beam shell, with breathing gradient lighting effect, releasing gorgeous lighting effects",
             'image' => '\assets\image\headset\headset3.jpg',
-            'MSRP' => 750,
+            'stock' => 999,
             'price' => 500,
-            'stock' => 999
+            'MSRP' => 750
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET FANTECH VALOR MH86 SPACE EDITION (WHITE)',
             'description' => "Fantech VALOR MH86 SPACE EDITION is one kind of Multi Platform Gaming Headset. It is flexible and incredibly durable. it has been tested extensively to withstand the rigors of pro-gaming. This gaming headset designed with Adjustable Steel Headband, Foldable Mircrophone, Adjustable Earcup Angle. The gaming headphone is Multi-Platform Compatibility type. Here, the microphone is featured with Microphone Frequency Response 100-10,000Hz, Microphone Pattern Omni-directional, Sensitivity -42dB, Impedance 2200 Ohm, Microphone Noise Cancellation, Foldable Microphone Design and Microphone Mute Toggle On Remote Control. This headphone desiogned with With only 280gr weight. but still flexible and incredibly durable. it has been tested extensively to withstand the rigors of pro-gaming. In this headphone, the speakers featured with Speaker Driver 50mm, Headset Frequency Response 20-20,000Hz, Headset Sensitivity 110dB, Headset Impedance 32 Ohm, Headset Total Harmonic Distortion <5%, Headset Volume Control On Remote control. This Headphone supports with PC, Playstation, Xbox, Mobile and Mac. The latest Fantech VALOR MH86 SPACE EDITION Gaming Headphone has 01 year warranty.",
             'image' => '\assets\image\headset\headset4.jpg',
-            'MSRP' => 790,
+            'stock' => 999,
             'price' => 500,
-            'stock' => 999
+            'MSRP' => 790
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET RAZER BLACKSHARK V2 X (GREEN)',
@@ -130,9 +131,9 @@ class ProductSeeder extends Seeder
             RAZER™ HYPERCLEAR CARDIOID MIC : Offering greater speech pickup and noise cancellation, the bendable mic on this lightweight esports headset has an optimized microphone housing which adopts a more open design for minimal obstruction—resulting in improved clarity for a closer recreation of your voice.\n
             ADVANCED PASSIVE NOISE CANCELLATION : From cheering crowds to the hum of your rig, shut noise out and enjoy uninterrupted focus with special closed earcups that fully cover your ears, aided by plush cushions that form a closer seal for greater sound isolation.',
             'image' => '\assets\image\headset\headset5.jpg",
-            'MSRP' => 1890,
-            'price' => 1200,
             'stock' => 999,
+            'price' => 1200,
+            'MSRP' => 1890
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET HyperX CLOUD STINGER CORE WIRELESS',
@@ -146,9 +147,9 @@ class ProductSeeder extends Seeder
             Swivel-to-mute noise-cancelling mic : The flexible, noise-cancelling mic will give you a clear line of communication with your squadmates and can be easily muted simply by swiveling it upwards.
             ",
             'image' => '\assets\image\headset\headset6.jpg',
-            'MSRP' => 2090,
+            'stock' => 999,
             'price' => 1100,
-            'stock' => 999
+            'MSRP' => 2090
         ],[
             'categoryID'=> 4,
             'Pname' => 'HEADSET RAZER KAIRA X FOR XBOX (WHITE)',
@@ -156,9 +157,9 @@ class ProductSeeder extends Seeder
             The headphones are comfortable to wear. Not too heavy for the head with a total weight of only 283 grams. The ear cups use FlowKnit memory foam material that is soft to the touch. good ventilation does not accumulate sweat The headband area can be adjusted to fit the user's body.\n
             In addition to audio performance, the accompanying RAZER™ HYPERCLEAR CARDIOID MIC is equally good. It is a microphone that picks up sound from the front. with reduced noise from the back and sides Provides smooth and uninterrupted coordination in the game The Razer Kaira X for Xbox Gaming Headphone has a control panel on the left earcup. You can adjust the volume and turn the mic on and off directly. Anyone who is looking for Xbox console gaming headphones, especially with full sound and quality microphone.",
             'image' => '\assets\image\headset\headset7.jpg',
-            'MSRP' => 2490,
+            'stock' => 999,
             'price' => 1500,
-            'stock' => 999
+            'MSRP' => 2490
         ],[
             'categoryID'=> 4,
             'Pname' => 'BLUETOOTH HEADSET RAZER KRAKEN BT (KITTY EDITION) (QUARTZ)',
@@ -168,9 +169,9 @@ class ProductSeeder extends Seeder
             CUSTOM-TUNED 40MM DRIVERS : At its core, the headset provides a rich audio experience that increases your gaming enjoyment, pushing out clear trebles and midrange as well as deep, impactful bass.\n
             BEAMFORMING MICROPHONE : With a sweet spot for your voice that's designed to pick up less noise from every other direction, the mic has no problems helping you sound as good as you look.",
             'image' => '\assets\image\headset\headset8.jpg',
-            'MSRP' => 3590,
+            'stock' => 999,
             'price' => 2000,
-            'stock' => 999
+            'MSRP' => 3590
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET CORSAIR VIRTUOSO RGB WIRELESS (CARBON)',
@@ -180,17 +181,17 @@ class ProductSeeder extends Seeder
             LIGHTWEIGHT : MACHINED ALUMINUM : For the long-lasting durability and comfort to wear the VIRTUOSO RGB Wireless anywhere\n
             DISCORD CERTIFIED : Throughly tested microphone and audio drivers for clear communication and outstanding sound',
             'image' => '\assets\image\headset\headset9.jpg',
-            'MSRP' => 6790,
+            'stock' => 999,
             'price' => 4500,
-            'stock' => 999
+            'MSRP' => 6790
         ],[
             'categoryID'=> 4,
             'Pname' => 'WIRELESS HEADSET CORSAIR VIRTUOSO RGB WIRELESS HIGH-FIDELITY GAMING HEADSET-PERL',
             'description' => 'The CORSAIR VIRTUOSO RGB Wireless delivers a high-fidelity audio experience, all-day comfort from its premium memory foam earpads, and hyper-fast connectivity with SLIPSTREAM WIRELESS technology.',
             'image' => '\assets\image\headset\headset10.jpg',
-            'MSRP' => 6790,
+            'stock' => 999,
             'price' => 4500,
-            'stock' => 999
+            'MSRP' => 6790
         ]
         //Product category : mic
 
