@@ -17,12 +17,93 @@ class ProductSeeder extends Seeder
         //
         $products = [[
             'categoryID'=> 1,
-            'Pname' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'Pname' => 'VIEWSONIC MONITOR VA2432-H (IPS 75 Hz)',
             'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
             'image' => '\assets\image\monitor1.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 2800,
+            'MSRP' => 3990
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'MSI MONITOR MP243W (24 IPS 75 Hz White)',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 3000,
+            'MSRP' => 4390
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'SAMSUNG MONITOR LF24T350FHEXXT (IPS 75 Hz)',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 3000,
+            'MSRP' => 4400
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'ACER MONITOR Nitro Gaming VG252QXbmiipx (IPS 240Hz G-SYNC)',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 6000,
+            'MSRP' => 7990
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'ASUS MONITOR ZenScreen MB16ACE 15.6 (IPS 60 Hz)',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 7000,
+            'MSRP' => 8990
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'LG MONITOR 34WP65G-B (IPS 75Hz HDR USB-C UltraWide)',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 8500,
+            'MSRP' => 11500
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'MSI MONITOR OPTIX G32CQ4 (VA 2K 165Hz CURVED) ',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 8000,
+            'MSRP' => 10900
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'XIAOMI Mi Curved Gaming Monitor (WQHD 144Hz)',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 10000,
+            'MSRP' => 12900
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'SKYWORTH MONITOR Ultrawide F34G3Q (IPS 144Hz HDR)',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 15000,
+            'MSRP' => 19900
+        ],
+        [
+            'categoryID'=> 1,
+            'Pname' => 'ACER MONITOR NITRO GAMING EI491CRPBMIIIPX (VA 144Hz)',
+            'description' => 'Samsung CRG50 24 Curved Gaming Monitor 144Hz',
+            'image' => '\assets\image\monitor1.jpg',
+            'stock' => 999,
+            'price' => 20000,
+            'MSRP' => 24990
         ],
         [
             'categoryID'=> 4,
