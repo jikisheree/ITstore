@@ -106,6 +106,90 @@ class ProductSeeder extends Seeder
             'price' => 24990
         ],
         [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE DELL OPTICAL MS116 (BLACK)',
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 1000 dpi • Buttons: 3 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(1).jpg',
+            'stock' => 999,
+            'price' => 130
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE NUBWO X7S RGB (WHITE)',
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 1000 dpi • Buttons: 3 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(2).jpg',
+            'stock' => 999,
+            'price' => 389
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE RAPOO EV200 (BLACK)',
+            'description' => '•	Interface: USB Cable (1.5 m) • Resolution: 1600 dpi • Buttons: 3 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(3).jpg',
+            'stock' => 999,
+            'price' => 389
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'WIRELESS MOUSE LOGITECH M331 WIRELESS SILENT PLUS (BLACK)',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Resolution: 1000 dpi • Buttons: 3 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(4).jpg',
+            'stock' => 999,
+            'price' => 590
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE MSI CLUTCH GM11 (BLACK-RGB)',
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 5000 dpi • Buttons: 6 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(5).jpg',
+            'stock' => 850
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MOUSE ASUS ROG GLADIUS II RGB',
+            'description' => '•	Interface: USB Cable (2.0 m) • Resolution: 12000 dpi • Buttons: 7 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(6).jpg',
+            'stock' => 1590
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'WIRELESS MOUSE MICROSOFT WIRELESS SCULPT ERGONOMIC MOUSE (MCS-L6V-00006)',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Resolution: 10000 dpi • Buttons: 7 buttons
+            • Sensing: BlueTrack',
+            'image' => '\assets\image\monitor\mouse(7).jpg',
+            'stock' => 1790
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'WIRELESS MOUSE CORSAIR HARPOON RGB (CH-9311011-AP)',
+            'description' => '•	Interface: USB cable (1.8 m)/Wireless 2.4 GHz and Bluetooth 5.0 • Resolution: 10000 dpi • Buttons: 6 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(8).jpg',
+            'stock' => 1990
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'MICROSOFT BLUETOOTH ARC TOUCH MOUSE (LILAC-RGB)(MCS-ELG-00022)',
+            'description' => '•	Interface: USB Wireless 2.4 GHz and Bluetooth 5.0 •	Resolution: 1000 dpi • Buttons: 6 buttons
+            • Sensing: Optical',
+            'image' => '\assets\image\monitor\mouse(9).jpg',
+            'stock' => 2690
+        ],
+        [
+            'categoryID'=> 2,
+            'Pname' => 'GLORIOUS MOUSE MODEL O WIRELESS (MATTE WHITE-RGB)',
+            'description' => '•	Interface: USB cable (2 m) • Resolution: 19000 dpi • Buttons: 6 buttons
+            • Sensing: Glorious BAMF Sensor',
+            'image' => '\assets\image\monitor\mouse(10).jpg',
+            'stock' => 3590
+        ],
+        [
             'categoryID'=> 4,
             'Pname' => 'headset',
             'description' => 'headset',
