@@ -113,86 +113,82 @@ class ProductSeeder extends Seeder
         [
             'categoryID'=> 2,
             'Pname' => 'MOUSE DELL OPTICAL MS116 (BLACK)',
-            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 1000 dpi • Buttons: 3 buttons
-            • Sensing: Optical',
-            'image' => '\assets\image\monitor\mouse(1).jpg',
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 1000 dpi • Buttons: 3 buttons • Sensing: Optical',
+            'image' => '\assets\image\mouse\mouse(1).jpg',
             'stock' => 999,
             'price' => 130
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'MOUSE NUBWO X7S RGB (WHITE)',
-            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 1000 dpi • Buttons: 3 buttons
-            • Sensing: Optical',
-            'image' => '\assets\image\monitor\mouse(2).jpg',
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 1000 dpi • Buttons: 3 buttons • Sensing: Optical',
+            'image' => '\assets\image\mouse\mouse(2).jpg',
             'stock' => 999,
             'price' => 389
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'MOUSE RAPOO EV200 (BLACK)',
-            'description' => '•	Interface: USB Cable (1.5 m) • Resolution: 1600 dpi • Buttons: 3 buttons
-            • Sensing: Optical',
-            'image' => '\assets\image\monitor\mouse(3).jpg',
+            'description' => '•	Interface: USB Cable (1.5 m) • Resolution: 1600 dpi • Buttons: 3 buttons • Sensing: Optical',
+            'image' => '\assets\image\mouse\mouse(3).jpg',
             'stock' => 999,
             'price' => 389
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'WIRELESS MOUSE LOGITECH M331 WIRELESS SILENT PLUS (BLACK)',
-            'description' => '•	Interface: USB Wireless 2.4 GHz • Resolution: 1000 dpi • Buttons: 3 buttons
-            • Sensing: Optical',
-            'image' => '\assets\image\monitor\mouse(4).jpg',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Resolution: 1000 dpi • Buttons: 3 buttons • Sensing: Optical',
+            'image' => '\assets\image\mouse\mouse(4).jpg',
             'stock' => 999,
             'price' => 590
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'MOUSE MSI CLUTCH GM11 (BLACK-RGB)',
-            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 5000 dpi • Buttons: 6 buttons
-            • Sensing: Optical',
-            'image' => '\assets\image\monitor\mouse(5).jpg',
-            'stock' => 850
+            'description' => '•	Interface: USB Cable (1.8 m) • Resolution: 5000 dpi • Buttons: 6 buttons • Sensing: Optical',
+            'image' => '\assets\image\mouse\mouse(5).jpg',
+            'stock' => 999,
+            'price' => 850
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'MOUSE ASUS ROG GLADIUS II RGB',
-            'description' => '•	Interface: USB Cable (2.0 m) • Resolution: 12000 dpi • Buttons: 7 buttons
-            • Sensing: Optical',
-            'image' => '\assets\image\monitor\mouse(6).jpg',
-            'stock' => 1590
+            'description' => '•	Interface: USB Cable (2.0 m) • Resolution: 12000 dpi • Buttons: 7 buttons • Sensing: Optical',
+            'image' => '\assets\image\mouse\mouse(6).jpg',
+            'stock' => 999,
+            'price' => 1590
         ],
         [
             'categoryID'=> 2,
-            'Pname' => 'WIRELESS MOUSE MICROSOFT WIRELESS SCULPT ERGONOMIC MOUSE (MCS-L6V-00006)',
-            'description' => '•	Interface: USB Wireless 2.4 GHz • Resolution: 10000 dpi • Buttons: 7 buttons
-            • Sensing: BlueTrack',
-            'image' => '\assets\image\monitor\mouse(7).jpg',
-            'stock' => 1790
+            'Pname' => 'WIRELESS MOUSE MICROSOFT SCULPT ERGONOMIC (MCS-L6V-00006)',
+            'description' => '•	Interface: USB Wireless 2.4 GHz • Resolution: 10000 dpi • Buttons: 7 buttons • Sensing: BlueTrack',
+            'image' => '\assets\image\mouse\mouse(7).jpg',
+            'stock' => 999,
+            'price' => 1790
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'WIRELESS MOUSE CORSAIR HARPOON RGB (CH-9311011-AP)',
-            'description' => '•	Interface: USB cable (1.8 m)/Wireless 2.4 GHz and Bluetooth 5.0 • Resolution: 10000 dpi • Buttons: 6 buttons
-            • Sensing: Optical',
-            'image' => '\assets\image\monitor\mouse(8).jpg',
-            'stock' => 1990
+            'description' => '•	Interface: USB cable (1.8 m)/Wireless 2.4 GHz and Bluetooth 5.0 • Resolution: 10000 dpi • Buttons: 6 button • Sensing: Optical',
+            'image' => '\assets\image\mouse\mouse(8).jpg',
+            'stock' => 999,
+            'price' => 1990
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'MICROSOFT BLUETOOTH ARC TOUCH MOUSE (LILAC-RGB)(MCS-ELG-00022)',
-            'description' => '•	Interface: USB Wireless 2.4 GHz and Bluetooth 5.0 •	Resolution: 1000 dpi • Buttons: 6 buttons
-            • Sensing: Optical',
-            'image' => '\assets\image\monitor\mouse(9).jpg',
-            'stock' => 2690
+            'description' => '•	Interface: USB Wireless 2.4 GHz and Bluetooth 5.0 •	Resolution: 1000 dpi • Buttons: 6 buttons • Sensing: Optical',
+            'image' => '\assets\image\mouse\mouse(9).jpg',
+            'stock' => 999,
+            'price' => 2690
         ],
         [
             'categoryID'=> 2,
             'Pname' => 'GLORIOUS MOUSE MODEL O WIRELESS (MATTE WHITE-RGB)',
-            'description' => '•	Interface: USB cable (2 m) • Resolution: 19000 dpi • Buttons: 6 buttons
-            • Sensing: Glorious BAMF Sensor',
-            'image' => '\assets\image\monitor\mouse(10).jpg',
-            'stock' => 3590
+            'description' => '•	Interface: USB cable (2 m) • Resolution: 19000 dpi • Buttons: 6 buttons • Sensing: Glorious BAMF Sensor',
+            'image' => '\assets\image\mouse\mouse(10).jpg',
+            'stock' => 999,
+            'price' => 3590
         ],
 
         //Product category : Keyboard
@@ -379,7 +375,7 @@ class ProductSeeder extends Seeder
             'price' => 6790
         ],[
             'categoryID'=> 4,
-            'Pname' => 'WIRELESS HEADSET CORSAIR VIRTUOSO RGB WIRELESS HIGH-FIDELITY GAMING HEADSET-PERL',
+            'Pname' => 'WIRELESS HEADSET CORSAIR VIRTUOSO RGB HIGH-FIDELITY GAMING PERL',
             'description' => 'The CORSAIR VIRTUOSO RGB Wireless delivers a high-fidelity audio experience, all-day comfort from its premium memory foam earpads, and hyper-fast connectivity with SLIPSTREAM WIRELESS technology.',
             'image' => '\assets\image\headset\headset10.jpg',
             'stock' => 999,
@@ -477,7 +473,7 @@ class ProductSeeder extends Seeder
             'price' => 290
         ],[
             'categoryID'=> 6,
-            'Pname' => 'SPEAKER FANTECH SONAR GS202 MOBILE GAMING & MUSIC SPEAKER (SAKURA EDITION) (PINK)',
+            'Pname' => 'SPEAKER FANTECH SONAR GS202 MOBILE GAMING & MUSIC (PINK)',
             'description' => '• Portable USB 2.0 + 3.5mm TRRS jack Speaker • 45MM Driver Unit •	RGB Illumination • Dimension : 80 x 80 x 100mm
             ',
             'image' => '\assets\image\speaker\speaker2.jpg',
@@ -502,7 +498,7 @@ class ProductSeeder extends Seeder
             'price' => 1590
         ],[
             'categoryID'=> 6,
-            'Pname' => 'SPEAKER EDIFIER G2000 BLUETOOTH 2.0 GAMING SPEAKERS WITH RGB LIGHTING (WHITE)',
+            'Pname' => 'SPEAKER EDIFIER G2000 BLUETOOTH 2.0 GAMING RGB LIGHTING (WHITE)',
             'description' => '•	2.75 inch full-range unit with 16W RMS power output • Column-shaped cabinet with backward mega bass port • 12 light effects enhance gaming experience •	Mechanical shift lever easy to control volume •	Music, Game and Movie sound mode supported • Bluetooth/USB sound card/AUX input available •	Dedicated power adapter for stable and safety power supply • Subwoofer output interface included
             ',
             'image' => '\assets\image\speaker\speaker5.jpg',
@@ -510,7 +506,7 @@ class ProductSeeder extends Seeder
             'price' => 2790
         ],[
             'categoryID'=> 6,
-            'Pname' => 'BLUETOOTH SPEAKER ANKER SOUNDCORE MOTION+ (BLACK) (A3116H11-AK184/SC24)',
+            'Pname' => 'BLUETOOTH SPEAKER ANKER SOUNDCORE MOTION+ (BLACK)',
             'description' => "•	Hi-res Audio: motion+ is equipped with stunning Hi-Res Audio which is further enhanced by Qualcomm aptX for lossless music reproduction when streaming via Bluetooth. •	Huge sound with intense bass: packed with two Ultra high-frequency tweeters, neodymium woofers, and passive radiators to fill every corner of your room with 30W of rich sound. Low frequencies are enhanced in real-time by our exclusive bassuptm technology. • Exceptional depth and clarity: motion+'s Ultra-wide frequency range stretches from 50 Hz to 40 kHz and is paired with an advanced DSP to ensure all the details and idiosyncrasies of a song are faithfully reproduced. •	IPX7 waterproof: fully-waterproof casing provides an impenetrable barrier against liquids. • 12-Hour playtime: motion+'s built-in 6, 700 mAh battery lets you effortlessly soundtrack wild weekends, cozy evenings, or long summer days outdoors.
             ",
             'image' => '\assets\image\speaker\speaker6.jpg',
