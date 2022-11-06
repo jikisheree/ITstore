@@ -184,8 +184,89 @@ class ProductSeeder extends Seeder
             'stock' => 999,
             'price' => 4500,
             'MSRP' => 6790
-        ]
+        ],
         //Product category : mic
+        [
+            'categoryID'=> 5,
+            'Pname' => 'MICROPHONE NUBWO M31 SCYTHER SPECTRUM DESKTOP',
+            'description' => 'Nubwo M31 is a desktop gaming microphone. Distinctive with a cool design in the style of gaming gear with RGB lighting on the mic base, which is designed to be a built-in smartphone stand. Can be placed both vertically and horizontally This mic is a dynamic type. Get the sound straight ahead Sound receiving frequency range 100 to 10,000 Hz, comes with windproof sponge. Provides clear sound quality, fine details, responds to communication while playing games quickly.In addition, the mic stem area is flexible and free to adjust and there is a mute button on the mic for muting. This mic connects via USB cable and is easy to use with both Windows and MacOS computers. It is an ideal gaming mic for entry-level gamers who are looking for their first mic to use. Good quality at an affordable price. The basic functions are complete. Cool design meets gaming needs',
+            'image' => '\assets\image\microphone\mic1.jpg',
+            'stock' => 999,
+            'price' => 120,
+            'MSRP' => 240
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'USB MICROPHONE ARROW X YDK-M1',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic2.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'MICROPHONE HyperX SOLOCAST',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic3.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'MICROPHONE SARAMONIC SR-MV2000',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic4.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'MICROPHONE HYPERX QUADCAST S WHITE',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic5.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'MICROPHONE HYPERX DUOCAST USB',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic6.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'USB MICROPHONE BLUE YETI NANO (SHADOW GREY)',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic7.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'USB MICROPHONE BLUE YETI NANO (MIDNIGHT BLUE)',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic8.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'MICROPHONE HYPERX PROCAST XLR',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic9.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],[
+            'categoryID'=> 5,
+            'Pname' => 'MICROPHONE SHURE MV7 (SILVER)',
+            'description' => 'keyboard',
+            'image' => '\assets\image\microphone\mic10.jpg',
+            'stock' => 999,
+            'price' => 4000,
+            'MSRP' => 4500
+        ],
 
         ];
         foreach ($products as $key => $value) {
