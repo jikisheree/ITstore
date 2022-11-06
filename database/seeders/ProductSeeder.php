@@ -196,56 +196,63 @@ class ProductSeeder extends Seeder
             'MSRP' => 240
         ],[
             'categoryID'=> 5,
-            'Pname' => 'USB MICROPHONE ARROW X YDK-M1',
-            'description' => 'keyboard',
+            'Pname' => 'MICROPHONE Signo MP-701',
+            'description' => "The Signo MP-701 is a budget gaming microphone from budget gaming brand Signo. It comes as a condenser mic with a complete set of professional stand and accessories. It's easy to use as it comes with a connection port. Aux 3.5mm connection, just plug the jack into your computer or notebook and it's ready to go.",
             'image' => '\assets\image\microphone\mic2.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 400,
+            'MSRP' => 750
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HyperX SOLOCAST',
-            'description' => 'keyboard',
+            'description' => "Plug N Play audio recording : Get quality audio recordings with this easy-to-use USB condenser microphone. The cardioid polar pattern prioritizes sound sources directly in front of the microphone./n
+            Tap-to-Mute sensor with LED status indicator : Simply tap the top of the mic to mute, and the signature LED indicator lets you immediately see whether or not you're broadcasting./n
+            Flexible, adjustable stand : The easy-to-position stand swivels to support a variety of setups. You can even fit it under a monitor if your setup is tight on space./n
+            Boom arm and mic stand threading : Versatile microphone fits 3/8-inch and 5/8-inch threaded setups, making it compatible with most mic stands or boom arms1.
+            Multi-device and program compatibility : Get great sound whether you're connecting to a PC, PS4™, or Mac®. SoloCast is certified by Discord and TeamSpeak™, and works on major streaming platforms like Streamlabs OBS, OBS Studio, and XSplit.
+            ",
             'image' => '\assets\image\microphone\mic3.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 1000,
+            'MSRP' => 1690
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE SARAMONIC SR-MV2000',
-            'description' => 'keyboard',
+            'description' => "SR-MV2000 features studio mics, a built-in pop filter, a cardioid pickup pattern, and a high-quality 3.5mm headphone output, complete with precision volume control, allowing you to deliver warmth and presence for a clear, professional sound while easily monitoring your audio. A unique detachable magnetic desk stand makes SR-MV2000 easy to mitigate knocks and bumps while removing. What's better, integrated 360-degree swing mount design can be quick and easy positioning on a desk, mic stand, or studio arm.\n
+            With a compact body and multi-color LED indicator, the SR-MV2000 has refined what's the quick and easy way to record. Just plug it in, and it works. Don't miss the best microphone you will ever have.",
             'image' => '\assets\image\microphone\mic4.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 1800,
+            'MSRP' => 2800
+
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX QUADCAST S WHITE',
-            'description' => 'keyboard',
+            'description' => '• Radiant RGB lighting with dynamic effects • Anti-Vibration shock mount• Tap-to-Mute sensor with LED indicator • Four selectable polar patterns• Convenient gain control adjustment• Customizable via HyperX NGENUITY Software • Mount adapter, built-in pop filter, and headphone jack • Multi-device and program compatibility',
             'image' => '\assets\image\microphone\mic5.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 2800,
+            'MSRP' => 5990
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX DUOCAST USB',
-            'description' => 'keyboard',
+            'description' => '• RGB Lighting • Customizable with NGENUITY software • Tap-to-mute sensor with LED status indicator • Cardioid, Omnidirectional',
             'image' => '\assets\image\microphone\mic6.jpg',
             'stock' => 999,
-            'price' => 4000,
-            'MSRP' => 4500
+            'price' => 2000,
+            'MSRP' => 3290
         ],[
             'categoryID'=> 5,
             'Pname' => 'USB MICROPHONE BLUE YETI NANO (SHADOW GREY)',
-            'description' => 'keyboard',
+            'description' => '• Legendary Blue broadcast sound qualit • Enhanced Blue VO!CE vocal effects • Cardioid and Omni pickup patterns',
             'image' => '\assets\image\microphone\mic7.jpg',
             'stock' => 999,
             'price' => 4000,
-            'MSRP' => 4500
+            'MSRP' => 6990
         ],[
             'categoryID'=> 5,
             'Pname' => 'USB MICROPHONE BLUE YETI NANO (MIDNIGHT BLUE)',
-            'description' => 'keyboard',
+            'description' => '• Legendary Blue broadcast sound qualit • Enhanced Blue VO!CE vocal effects • Cardioid and Omni pickup patterns',
             'image' => '\assets\image\microphone\mic8.jpg',
             'stock' => 999,
             'price' => 4000,
@@ -253,7 +260,7 @@ class ProductSeeder extends Seeder
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE HYPERX PROCAST XLR',
-            'description' => 'keyboard',
+            'description' => '• Gold-sputtered large diaphragm condenser • Cardioid polar pattern • XLR Connection • Detachable HyperX Shield metal pop filter',
             'image' => '\assets\image\microphone\mic9.jpg',
             'stock' => 999,
             'price' => 4000,
@@ -261,7 +268,7 @@ class ProductSeeder extends Seeder
         ],[
             'categoryID'=> 5,
             'Pname' => 'MICROPHONE SHURE MV7 (SILVER)',
-            'description' => 'keyboard',
+            'description' => '• MV7 • Dynamic podcast microphone with both USB and XLR outputs • for use with computers and professional interfaces.',
             'image' => '\assets\image\microphone\mic10.jpg',
             'stock' => 999,
             'price' => 4000,
