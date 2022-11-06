@@ -74,7 +74,7 @@
                     <div class="img-thumbnail">
                         <img src="{{ $product->image }}" alt="" style="min-width: 200px; max-width: 200px;">
                         <div class="caption">
-                            <h4>{{ $product->name }}</h4>
+                            <h4>{{ $product->Pname }}</h4>
                             <p class="overflow-md-auto">{{ $product->description }}</p>
                             <p>{{ $product->stock }}</p>
                             <p><strong>Price: </strong> {{ $product->price }}$</p>
