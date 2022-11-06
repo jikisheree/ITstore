@@ -64,7 +64,6 @@
 </head>
 <div class="p-5 rounded" style="background-color:#eaeaf4 ">
     @auth
-    
     <h1>Products</h1>
     <p class="lead">Choose the product that you want to buy.</p>
     <div class="flex-center position-ref full-height">

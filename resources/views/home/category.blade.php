@@ -10,9 +10,10 @@
     </section>
     <section class="container" style="margin-top: 2rem">
         <div class="bg-light mx-10 rounded">
-            <h1>Category</h1>
-            <p class="lead">You have to login before buy the products.</p>
-            <div class="flex-center position-ref full-height">
+            <div class="header">
+                <h1 class="tag-name">Category</h1>
+            </div>
+            <div class="flex-center position-ref full-height" style="margin-top: 1rem">
                 <div class="row">
                     @php
                     $i = 0;
