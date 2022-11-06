@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/checkout', function () {
-    return view('/home/checkout');
+    return view('/checkout');
 });
 
 Route::group(['namespace' => 'App\Http\Controllers'], function () {
