@@ -12,7 +12,7 @@
         }
 
         h1 {
-            font-family: Gemini Moon Regular;
+            font-family: 'Harlow Solid';
             font-size: 70px;
             font-weight: 500;
             line-height: 100px;
