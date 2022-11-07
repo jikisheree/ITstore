@@ -28,7 +28,8 @@ class ProductController extends Controller
     }
     public function cart()
     {
-        $carts = DB::select('select * from carts');
+        $user = Auth::user();
+        $carts = Cart::where('userNumber' , $user->userNumber )->get();
         return view('cart', ['carts' => $carts]);
     }
 
@@ -76,7 +77,7 @@ class ProductController extends Controller
             if($user->creditLimit >= $total){
                 $user->creditLimit = $user->creditLimit - $total;
                 $user->save();
-                DB::delete('select * from carts');
+                Cart::where('userNumber','=',$user->userNumber)->delete();
             }else{
                 return redirect()->back()->with('fail','Checkout fail');
             }
