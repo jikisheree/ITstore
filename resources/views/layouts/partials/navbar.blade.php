@@ -4,8 +4,7 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <a href="/" class="nav-link px-2  text-blue ml-5" style="font-family: 'Harlow Solid'; font-size: 40px; ">Home</a>
             </ul>
-            @auth
-            {{auth()->user()->name}}       
+            @auth    
             <div class="text-end">
                 <div class="flex">
                     <h5 class="card-title text-center">{{ auth()->user()->username }}</h5>
