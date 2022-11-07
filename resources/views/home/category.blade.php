@@ -1,8 +1,30 @@
 @extends('layouts.app-master')
 @section('content')
-<div class="bg-light p-5 rounded">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Prompt&display=swap');
+        p {
+            font-family: 'Prompt', 'Roboto Slab';
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 25px;
+        }
+
+        h1 {
+            font-family: Gemini Moon Regular;
+            font-size: 70px;
+            font-weight: 500;
+            line-height: 100px;
+            color: #4773EB;
+            text-align: center;
+            ;
+        }
+    </style>
+</head>
+<div class="bg-light px-5 rounded">
     <h1>Category</h1>
-    <p class="lead">You have to login before buy the products.</p>
+    <p >You have to login before buy the products.</p>
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="row">
