@@ -66,16 +66,16 @@ class ProductController extends Controller
     }
 
     public function checkout($total){
-        $user = $this->User;
+        $user = Auth::user();
         DB::transaction(function() use ($total,$user){
-            if($user->credit >= $total){
-                $user->credit = $user->credit - $total;
+            if($user->creditLimit >= $total){
+                $user->creditLimit = $user->creditLimit - $total;
                 $user->save();
                 DB::delete('select * from carts');
             }else{
                 return redirect()->back()->with('fail','Checkout fail');
             }
         });
-        return back()->with('success','Checkout successfully');
+        return redirect('checkout')->with('success','Checkout successfully');
     }
 }

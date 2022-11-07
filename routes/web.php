@@ -46,7 +46,8 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
         Route::get('/logout', 'LogoutController@perform')->name('logout.perform');
         Route::get('/cart', 'ProductController@cart')->name('cart');
         Route::get('/add-to-cart/{id}', 'ProductController@addToCart')->name('add.to.cart');
-        Route::get('/checkout/{total}', 'ProductController@checkout')->name('checkout');
+        Route::get('/checkout/{total}', 'ProductController@checkout')->name('check.out');
+        Route::get('/checkout', 'ProductController@checkout')->name('checkout');
         Route::delete('/remove-from-cart/{id}', 'ProductController@remove')->name('remove.from.cart');
     });
 });
