@@ -114,7 +114,7 @@ CREATE TABLE `carts` (
   `quantityOrdered` int(11) NOT NULL,
   `Pname` varchar(70) NOT NULL,
   `priceEach` decimal(10,2) NOT NULL,
-  `usernumber` int(11) NOT NULL,
+  `userNumber` int(11) NOT NULL,
   `image` text DEFAULT NULL,
   PRIMARY KEY (`itemNumber`,`productCode`),
   KEY `productCode` (`productCode`),
