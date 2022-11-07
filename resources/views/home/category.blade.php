@@ -12,7 +12,7 @@
         }
 
         h1 {
-            font-family: Gemini Moon Regular;
+            font-family: 'Harlow Solid';
             font-size: 70px;
             font-weight: 500;
             line-height: 100px;
@@ -24,7 +24,7 @@
 </head>
 <div class="bg-light px-5 rounded">
     <h1>Category</h1>
-    <p >You have to login before buy the products.</p>
+    <p >You have to login before buying the products.</p>
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="row">

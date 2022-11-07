@@ -58,7 +58,7 @@
                     <h4 class="card-title">{{ $product->Pname }}</h4>
                     <p class="overflow-md-auto">{{ $product->description }}</p>
                     <p style="color: Gray; font-size: 18px;"><strong>Amount : </strong>{{ $product->stock }}</p>
-                    <p style="color: Tomato; font-size: 18px;"><strong>Price : </strong> {{ $product->price }} $</p>
+                    <p style="color: Tomato; font-size: 18px;"><strong>Price : </strong> {{ $product->price }} THB</p>
                     <p class="btn-holder"><a href="{{ route('add.to.cart', $product->productCode) }}" class="btn btn-block text-center btn-outline-danger" role="button">Add to cart</a> </p>
                 </div>
             </div>
@@ -72,8 +72,7 @@
 <div class="bg-light px-5">
     @guest
     <h1>Products</h1>
-    <p class="text" style="text-shadow: 2px 2px red;">You have to login before buy the products.</p>
-
+    <p class="text" style="text-shadow: 2px 2px red;">You have to login before buying the products.</p>
     <div class="row">
         @foreach($products as $product)
         <div class="col-sm-6">
@@ -85,7 +84,7 @@
                     <h4 class="card-title">{{ $product->Pname }}</h4>
                     <p class="overflow-md-auto">{{ $product->description }}</p>
                     <p style="color: Gray; font-size: 18px;"><strong>Amount : </strong>{{ $product->stock }}</p>
-                    <p style="color: Tomato; font-size: 18px;"><strong>Price : </strong> {{ $product->price }} $</p>
+                    <p style="color: Tomato; font-size: 18px;"><strong>Price : </strong> {{ $product->price }} THB</p>
                 </div>
             </div>
         </div>
