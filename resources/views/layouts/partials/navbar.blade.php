@@ -7,6 +7,10 @@
             @auth
             {{auth()->user()->name}}       
             <div class="text-end">
+                <div class="flex">
+                    <h5 class="card-title text-center">{{ auth()->user()->username }}</h5>
+                    <h5 class="card-title text-center">{{ auth()->user()->creditLimit }}</h5>
+                </div>
                 <a href="{{ url('cart') }}" class="btn btn-light btn-shopping-cart mx-4">Cart</a>
                 <a href="{{ route('logout.perform') }}" class="btn btn-outline-danger me-2">Logout</a>
             </div>
