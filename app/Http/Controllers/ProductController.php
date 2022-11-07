@@ -13,9 +13,7 @@ class ProductController extends Controller
 {
     public function index($id)
     {
-        
         $products = Product::where('categoryID' , $id )->get();
-        
         return view('home.index', compact('products'));
     }
     public function category()
@@ -30,8 +28,7 @@ class ProductController extends Controller
     }
     public function cart()
     {
-        $user = Auth::user();
-        $carts = Cart::where('userNumber' , $user->userNumber )->get();
+        $carts = DB::select('select * from carts');
         return view('cart', ['carts' => $carts]);
     }
 
@@ -77,10 +74,9 @@ class ProductController extends Controller
         $user = Auth::user();
         DB::transaction(function() use ($total,$user){
             if($user->creditLimit >= $total){
-
                 $user->creditLimit = $user->creditLimit - $total;
                 $user->save();
-                Cart::where('userNumber','=',$user->userNumber)->delete();
+                DB::delete('select * from carts');
             }else{
                 return redirect()->back()->with('fail','Checkout fail');
             }
