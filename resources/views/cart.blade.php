@@ -48,7 +48,13 @@
         <tr>
             <td colspan="5" class="text-right">
                 <a href="{{ url('/') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a>
-                <a href="{{ url('/checkout') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> check out</a>
+                <td>
+                <form action="{{ url('checkout/', $total) }}" method="POST">
+                    @csrf
+                    @method('DELETE')
+                    <button class="btn btn-danger"><div>Check out</div></button>
+                </form>
+                </td>
             </td>
         </tr>
     </tfoot>
