@@ -1,15 +1,13 @@
 <header class=" text-white" style="background-color: hsl(222, 86%, 76%)">
     <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">           
+        <div class="d-flex align-items-center">
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <a href="/" class="nav-link px-2  text-blue ml-5" style="font-family: 'Harlow Solid'; font-size: 40px; ">Home</a>
             </ul>
-            @auth    
-            <div class="text-end">
-                <div class="flex">
-                    <h5 class="card-title text-center">{{ auth()->user()->username }}</h5>
-                    <h5 class="card-title text-center">{{ auth()->user()->creditLimit }}</h5>
-                </div>
+            @auth
+            <h5 class="card-title text-center mx-4 mt-2">{{ auth()->user()->username }}</h5>
+            <h5 class="card-title text-center mt-2 mr-2">{{ auth()->user()->creditLimit }}</h5>
+            <div class="text-end ml-5">
                 <a href="{{ url('cart') }}" class="btn btn-light btn-shopping-cart mx-4">Cart</a>
                 <a href="{{ route('logout.perform') }}" class="btn btn-outline-danger me-2">Logout</a>
             </div>
