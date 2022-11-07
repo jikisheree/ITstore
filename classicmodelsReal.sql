@@ -18,7 +18,12 @@
 --
 -- Table structure for table `users`
 --
-
+CREATE INDEX usersidx
+ON users (username);
+CREATE INDEX productsidx
+ON products (Pname);
+CREATE INDEX cartidx
+ON carts (Pname,productCode);
 DROP TABLE IF EXISTS `users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
