@@ -18,7 +18,6 @@
             line-height: 100px;
             color: #4773EB;
             text-align: center;
-            ;
         }
     </style>
 </head>
@@ -27,7 +26,7 @@
     <p >You have to login before buying the products.</p>
     <div class="flex-center position-ref full-height">
         <div class="content">
-            <div class="row">
+            <div class="row justify-content-center">
                 @php
                 $i = 0;
                 @endphp
@@ -35,7 +34,7 @@
                 @php
                 $i++;
                 @endphp
-                <div class="card mx-3 mb-3" style="width: 18rem; border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div class="card mx-3 mb-3" style=" width: 18rem; border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
                     <img class="card-img-top my-3" style="height: 200px;" src="{{ $category->image }}" alt="Card image cap">
                     <div class="card-body mx-auto">
                         <h5 class="card-title text-center">{{ $category->categoryName }}</h5>
