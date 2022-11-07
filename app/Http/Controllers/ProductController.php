@@ -21,6 +21,11 @@ class ProductController extends Controller
         $categorys = Category::all();
         return view('home.category', compact('categorys'));
     }
+    public function checkout()
+    {
+        
+        return view('checkout');
+    }
     public function cart()
     {
         $carts = DB::select('select * from carts');
@@ -65,7 +70,7 @@ class ProductController extends Controller
         return back()->with('success', 'Product removed successfully');
     }
 
-    public function checkout($total){
+    public function check_out($total){
         $user = Auth::user();
         DB::transaction(function() use ($total,$user){
             if($user->creditLimit >= $total){
@@ -76,6 +81,6 @@ class ProductController extends Controller
                 return redirect()->back()->with('fail','Checkout fail');
             }
         });
-        return redirect('checkout')->with('success','Checkout successfully');
+        return redirect()->route('checkout')->with('success','Checkout successfully'); 
     }
 }
