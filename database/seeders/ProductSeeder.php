@@ -21,8 +21,7 @@ class ProductSeeder extends Seeder
         [
             'categoryID'=> 1,
             'Pname' => 'VIEWSONIC MONITOR VA2432-H (IPS 75 Hz)',
-            'description' => '•	Size: 24.0 • Panel type: IPS • Max resolution: 1920 x 1080
-            • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 4 ms',
+            'description' => '•	Size: 24.0 • Panel type: IPS • Max resolution: 1920 x 1080 • Widescreen: 16:9 • Refresh rate: 75 Hz • Ports: VGA/HDMI • Respond time: 4 ms',
             'image' => '\assets\image\monitor\(1).jpg',
             'stock' => 999,
             'price' => 3990

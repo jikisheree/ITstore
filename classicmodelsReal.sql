@@ -115,7 +115,7 @@ CREATE TABLE `carts` (
   `Pname` varchar(70) NOT NULL,
   `priceEach` decimal(10,2) NOT NULL,
   `usernumber` int(11) NOT NULL,
-  `image` varchar(255) DEFAULT NULL,
+  `image` text DEFAULT NULL,
   PRIMARY KEY (`itemNumber`,`productCode`),
   KEY `productCode` (`productCode`),
   CONSTRAINT `carts_ibfk_2` FOREIGN KEY (`productCode`) REFERENCES `products` (`productCode`)
@@ -188,7 +188,7 @@ CREATE TABLE `Category` (
   `categoryID` int(11) NOT NULL,
   `categoryName` varchar(50) NOT NULL,
   `discount` decimal(10,2) NOT NULL,
-  `image` varchar(4000) DEFAULT NULL,
+  `image` text DEFAULT NULL,
   PRIMARY KEY (`categoryID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -210,7 +210,7 @@ CREATE TABLE `products` (
   `productCode` int AUTO_INCREMENT NOT NULL,
   `Pname` varchar(70) NOT NULL,
   `description` text NOT NULL,
-  `image` varchar(255) DEFAULT NULL,
+  `image` text DEFAULT NULL,
   `stock` smallint(6) NOT NULL,
   `price` decimal(10,2) NOT NULL,
   
