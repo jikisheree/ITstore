@@ -20,11 +20,13 @@
 
 	<div class="main-content">
 		<i class="fa fa-check main-content__checkmark" id="checkmark"></i>
-		<p class="main-content__body" data-lead-id="main-content-body">Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you.</p>
+		<p class="main-content__body" data-lead-id="main-content-body">Your order has been placed.  </p>
 	</div>
 
 	<footer class="site-footer" id="footer">
-		<p class="site-footer__fineprint" id="fineprint">Copyright ©2014 | All Rights Reserved</p>
+		<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <a href="/" class="nav-link px-2  text-blue ml-5" style="font-family: 'Harlow Solid'; font-size: 40px; ">Home</a>
+        </ul>
 	</footer>
 </body>
 </html>
